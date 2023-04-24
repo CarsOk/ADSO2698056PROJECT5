@@ -1,11 +1,39 @@
-# introducion
-## 1.1 Propósito 
--tener como objetivo claro y definir de manera clara y precisa las funcionalidades, restricciones que tendrá el sistema que se desea construir, y va dirigida al equipo de desarrollo de software y a las personas que harán uso del sistema terminado. Este documento será un medio de comunicación entre cada uno de los usuarios, hasta obtener su aprobación. En cuanto esto ocurra el documento para la construcción del nuevo sistema.
- ## 1.2  Alcance
+# Tabla de Contenido
+
+**1.Introducción.4**
+**1.1 Propósito 4**
+**1.2 Alcance 4**
+**1.3 Definiciones, Acrónimos, y Abreviaturas 4**
+**1.4 Referencias 5**
+**1.5 Apreciación Global 5**
+**2.Descripción.5**
+**2.1. del Producto.5**
+**2.2.Funciones del Producto.6**
+**2.3.Características de Usuario.6**
+**2.4.Restricciones.6**
+**2.5.Atención y Dependencias.6**
+**3.Requerimientos Específicos.7**
+**3.1.Requerimientos Funcionales.7**
+**3.2.Requerimientos No Funcionales.11**
+**3.3.Requerimientos de interfaz de usuario.14**
+**4.Determinación de las tecnologías de hardware, software y servicios requerido.16**
+**4.1.Software.16**
+**4.2.Hosting.17**
+**4.3.Computador.18**
+**4.4.Escáner Lector Código de Barras Automático USB Soporte Base.19**
+**4.5.Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N).20**
+**4.6.Presupuesto.21**
+
+## Especificación de Requerimientos
+
+***1.Introducción***
+
+***1.1.Propósito***
+-Tener como objetivo claro y definir de manera clara y precisa las funcionalidades, restricciones que tendrá el sistema que se desea construir, y va dirigida al equipo de desarrollo de software y a las personas que harán uso del sistema terminado. Este documento será un medio de comunicación entre cada uno de los usuarios, hasta obtener su aprobación. En cuanto esto ocurra el documento para la construcción del nuevo sistema.
+***1.2 Alcance***
 -El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
 Este sistema se encargará de facilitar las operaciones realizadas en los (centros de autoservicio) de manera cotidiana con sus productos, tales como compras, ventas e inventarios, echando mano de la base de datos de la empresa y cuidando su compatibilidad con otras aplicaciones de la misma empresa.
-
- ## 1.3 Definiones, Acrónimos y Abreviaturas
+***1.3 Definiciones, Acrónimos, y Abreviaturas***
 -[DEFINICIONES] 
 1. actualización-Insertar, Eliminar, Codificar los registros de los usuarios (profesores),Almacenamiento.
 -En relación con ordenadores o computadoras, cualquier dispositivo capaz de almacenar información procedente de un sistema informatico. Backup. -Las copias de seguridad de un sistema informatico tienen por objetivo el mantener cierta capacidad de recuperación de la información ante posibles perdidas. Esta capacidad puede llegar a ser algo muy importante, incluso critíca, para las empresas. Se han dado casos de empresas que han llegado a desaparecer ante la imposibilidad de recuperar sus sistemas al estado anterior a que se produjece un incidente de seguridad grave.
@@ -32,10 +60,9 @@ Este sistema se encargará de facilitar las operaciones realizadas en los (centr
 12 sitio Web. 
 -Se canaliza a través del URL o identificador unico de cada pagina de contenido. Este sistema permite a los usuarios iniciar una solicitud de trámite y a los funcionarios del Agua Potable atender las solicitudes e inregar datos de las inspecciones realizadas.
 13.POSTGREQL 
-- lenguaje de consulta estructurado, en informatica, un lenguaje utilizado en bases de datos para consultar, actualizar y manejar bases de datos relacionales. 
+-lenguaje de consulta estructurado, en informatica, un lenguaje utilizado en bases de datos para consultar, actualizar y manejar bases de datos relacionales. 
 14 . Tabla. 
-- Entidad que posee campos físicos primarios secundarios.
-
+-Entidad que posee campos físicos primarios secundarios.
 - [ACRÓNIMOS]
 1.DBS.
 - Es aquella persona que tiene el control central del sistema de base de datos. 
@@ -49,7 +76,6 @@ TPC/IP- Acrónimo de Transmisión control/protocol/internet protocol
 Protocolos usados para el control de la trasmisión en internet. Permite que diferentes tipos de ordenadores o computadoras se comuniquen a través de redes héterogeneas.
 4.URL. 
 - Un URL es una cádena de caractéres que identifica el tipo de documento, la computadora, el directorio y los subdirectorios en donde se encuentra el documento y su nombre.  
-
 - [ABREVIATURAS] 
 1. HWW..HADWARE 
 2. SW..SOFTWARE 
@@ -57,15 +83,91 @@ Protocolos usados para el control de la trasmisión en internet. Permite que dif
 4. SR.SEÑORA 
 5. ING.IMGENIERO(A) 
 6. DR.DOCTOR(A)
-
- ## 1.4 Referencias
- -  referencia  [rf]
- - Título [título]
- - Ruta [ruta]
- - Fecha [fecha]
- - Autor [autor]
-
- ## 1.5 Apreciación Global
+***1.4 Referencias***
+ -referencia [rf]
+ -Título [título]
+ -Ruta [ruta]
+ -Fecha [fecha]
+ -Autor [autor]
+***1.5 Apreciación Global***
 -Este docuemento está conformado de tres secciones que son la 1.introducción, 2.la descripción global y 3. los requisitos específicos. 
 -En la segunda sección se da una descripción general del sistema a construir, para conocer sus funciones pricinpales, los datos requeridos, y sus restricciones, entre otras cosas que afectan su desarrollo, aunque no se entra en los detalles de cada uno de estos factores. 
--en la tercera se definen los pormenores de los requisitos que el ususario ha externado que el sistema actual cumple y por lo tanto el nuevo sistema debe satisfacer.
+-En la tercera se definen los pormenores de los requisitos que el ususario ha externado que el sistema actual cumple y por lo tanto el nuevo sistema debe satisfacer.
+
+***2. Descripción General***
+
+***2.1 Perspectivas del Producto***
+
+***2.2 Funciones del Producto***
+
+***2.3 Características de Usuario***
+
+***2.4 Restricciones***
+
+***2.5 Atención y Dependencias***
+
+***3. Requerimientos Específicos***
+
+***3.1 Requerimientos Funcionales****
+| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
+|----------------------|------------|-----------|------------------------|
+| **Descripcion**      |                                                 |
+| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
+| **Proceso**          |                                                 |
+| **Efecto colateral** |                                                 |
+
+ 
+
+| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
+|----------------------|------------|-----------|------------------------|
+| **Descripcion**      |                                                 |
+| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
+| **Proceso**          |                                                 |
+| **Efecto colateral** | 
+
+
+
+| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
+|----------------------|------------|-----------|------------------------|
+| **Descripcion**      |                                                 |
+| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
+| **Proceso**          |                                                 |
+| **Efecto colateral** |   
+
+
+
+***3.2.Requerimientos No funcionales***
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
+
+
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
+
+
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
+
+***3.3.Requerimientos de interfaz de usuario***
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
+
+
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
+
+
+| **Codigo**      | **Nombre** | **Fecha** | **Grado de necesidad** |
+|------------     |------------|-----------|------------------------|
+|                 |            |           |                        |
+| **Descripcion** |                                                 |
