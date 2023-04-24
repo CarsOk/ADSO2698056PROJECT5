@@ -1,5 +1,6 @@
 # HOJA DE VIDA 
 <a href="https://ibb.co/FBFJvnz"><img src="https://i.ibb.co/FBFJvnz/nnnnnnnn.png" alt="nnnnnnnn" border="0"></a>
+
 | nombre   | cistian lugo monterroza |
 |Documento|104248189|
 |---------------|----------------------|
