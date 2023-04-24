@@ -34,7 +34,7 @@
 -El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
 Este sistema se encargará de facilitar las operaciones realizadas en los (centros de autoservicio) de manera cotidiana con sus productos, tales como compras, ventas e inventarios, echando mano de la base de datos de la empresa y cuidando su compatibilidad con otras aplicaciones de la misma empresa.
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
--[DEFINICIONES] 
+-[DEFINICIONES.] 
 1. actualización-Insertar, Eliminar, Codificar los registros de los usuarios (profesores),Almacenamiento.
 -En relación con ordenadores o computadoras, cualquier dispositivo capaz de almacenar información procedente de un sistema informatico. Backup. -Las copias de seguridad de un sistema informatico tienen por objetivo el mantener cierta capacidad de recuperación de la información ante posibles perdidas. Esta capacidad puede llegar a ser algo muy importante, incluso critíca, para las empresas. Se han dado casos de empresas que han llegado a desaparecer ante la imposibilidad de recuperar sus sistemas al estado anterior a que se produjece un incidente de seguridad grave.
 2.Base de datos.
