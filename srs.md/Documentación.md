@@ -137,7 +137,6 @@ Protocolos usados para el control de la trasmisión en internet. Permite que dif
 
 
 ***3.2.Requerimientos No funcionales***
-### 3.2 requerimientos no funcionales
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|-------|-----|-----------------|
