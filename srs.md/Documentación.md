@@ -27,72 +27,37 @@
 ## Especificación de Requerimientos
 
 ***1.Introducción***
-
+La siguiente Especificación de Requerimientos de Software (SRS) del sistema a construir, surge con la finalidad de proveer toda la información de lo que quiere el cliente que contenga el software. Tales requerimientos son la base a la hora de comenzar el desarrollo del Software. En este caso el software a desarrollar es la optimización de materiales puede ser abordada de diferentes maneras, dependiendo del tipo de sistema que se esté desarrollando y los objetivos de optimización que se quieran lograr.
 ***1.1.Propósito***
--Tener como objetivo claro y definir de manera clara y precisa las funcionalidades, restricciones que tendrá el sistema que se desea construir, y va dirigida al equipo de desarrollo de software y a las personas que harán uso del sistema terminado. Este documento será un medio de comunicación entre cada uno de los usuarios, hasta obtener su aprobación. En cuanto esto ocurra el documento para la construcción del nuevo sistema.
+El propósito de este documento es describir lo acordado con el cliente y desarrollar el paso a paso para crear el software que servirá para dar control y llevar un registro de los objetos y optomizar sus ventas que ingresan y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, y elaborancion de materiales generando informes o reportes respectivos de las actividades de manera semanal, mensual y anual. Además tales informes pueden ser ajustados por el usuario.
 ***1.2 Alcance***
--El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
-Este sistema se encargará de facilitar las operaciones realizadas en los (centros de autoservicio) de manera cotidiana con sus productos, tales como compras, ventas e inventarios, echando mano de la base de datos de la empresa y cuidando su compatibilidad con otras aplicaciones de la misma empresa.
+El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
+●	Control y organización de registros.
+●	Administración de los espacios disponibles.
+●	Generar Reportes.
+●	Optimizacion de su negocio.
+
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
--[DEFINICIONES.] 
-1. actualización-Insertar, Eliminar, Codificar los registros de los usuarios (profesores),Almacenamiento.
--En relación con ordenadores o computadoras, cualquier dispositivo capaz de almacenar información procedente de un sistema informatico. Backup. -Las copias de seguridad de un sistema informatico tienen por objetivo el mantener cierta capacidad de recuperación de la información ante posibles perdidas. Esta capacidad puede llegar a ser algo muy importante, incluso critíca, para las empresas. Se han dado casos de empresas que han llegado a desaparecer ante la imposibilidad de recuperar sus sistemas al estado anterior a que se produjece un incidente de seguridad grave.
-2.Base de datos.
--Cualquier conjunto de datos organizado para su almacenamiento en la memoria de un ordenar o computadora, diseñado para facilitar su mantenimiento y acesso de una forma estándar. La información se organiza en campos y registros. Un campo se refiere a un tipo o atributo de información , y un regisytro , a toda la información sobre un individuo.
-3.Conexión. 
--Comunicación entre dos entes que tienen caracteristícas similares de comunicación. 
-4.Interfaz.
--Medio que permite la comunicación entre el usuario y el sitema.
-5.Internet. 
--Interconexión de redes informaticas que permite a los ordenadores o computadores conectadas comunicarse directamente, es decir, cada ordenador de la red puede conectarse a cualquier otro ordenador de la red. El término suele referirse a una interconexión en particular, de caracter planetario y abierto al publico que conecta a redes informaticas de organismos oficiales, eduactivos y empresariales.
-6. Login. 
--Nombre o alias que se le da a una persona para permitirle el acesso al sistema siempre y cuando esten registrados.
-7.PASSWORD. 
--Contraseña o clave para autentificar el ingreso a un lugar o sitio. Périferico en informatica, término utilizado para dispositivos, como unidades de discos, impresoras, modem que están conectados a un ordenador o computadora y son controlados por su microprocesador.
-8.Protocolo. 
--Señal mendiante la cual se reconoce que puede tener lugar la comunicación o la transferencia de información.
-9.Servidor. 
--Computadora conectada a una red que pone sus recursos a disposición del resto de los integrantes de la red. Suele utilizarse para mantener datos centralizados o para gestionar recursos compartidos.
-10.Servidor de archivos. 
--Dispositivo de almacenamiento de archivos en una red de área local, o en internet, al que los distintos usuarios de la red pueden acceder, en función de los privilegios que le hayan sido dados por parte del administrador.
-11.Sistema operativo. 
--Software básico que controla una computadora. El sistema operativo tiene tres grandes funciones: Coordina y manipula el hardware del ordenador o computadora, como la memoria, las impresoras, las unidades de disco, el teclado o el mouse; organiza los archivos en diversos dispositivos de almacenamiento como discos flexibles, discos duros, discos compactos o cintas magnéticas, y gestiona los errores de hadware y la perdida de datos.
-12 sitio Web. 
--Se canaliza a través del URL o identificador unico de cada pagina de contenido. Este sistema permite a los usuarios iniciar una solicitud de trámite y a los funcionarios del Agua Potable atender las solicitudes e inregar datos de las inspecciones realizadas.
-13.POSTGREQL 
--lenguaje de consulta estructurado, en informatica, un lenguaje utilizado en bases de datos para consultar, actualizar y manejar bases de datos relacionales. 
-14 . Tabla. 
--Entidad que posee campos físicos primarios secundarios.
-- [ACRÓNIMOS]
-1.DBS.
-- Es aquella persona que tiene el control central del sistema de base de datos. 
-2.SYSBALANCE.
--Sistema de " DOCIFICACIÓN DE BALANCEADOS" GUI o Acrónimo de Graphical User interface .- En informatica- Tipo de entorno que permite al usuario elegir comandos, iniciar programas, ver listas de archivos y otras opciones utilizando las represantaciones visuales (Íconos) y las listas de elementos del menú. Las selecciones pueden activarse bien a través del teclado o con el ratón. ODBC.- Herramienta que conecta la base de datos con la interfaz.s
-3.SRS.
-- Acrónimo de software Requeriments Specifications 
-(Especificación de requerimientos de software)
-TPC/IP- Acrónimo de Transmisión control/protocol/internet protocol
-(Protocolo de control de transmisiones/protocolo de internet),
-Protocolos usados para el control de la trasmisión en internet. Permite que diferentes tipos de ordenadores o computadoras se comuniquen a través de redes héterogeneas.
-4.URL. 
-- Un URL es una cádena de caractéres que identifica el tipo de documento, la computadora, el directorio y los subdirectorios en donde se encuentra el documento y su nombre.  
-- [ABREVIATURAS] 
-1. HWW..HADWARE 
-2. SW..SOFTWARE 
-3. SR.SEÑOR 
-4. SR.SEÑORA 
-5. ING.IMGENIERO(A) 
-6. DR.DOCTOR(A)
+●	Backup: Las copias de seguridad en un sistema informático tienen por objetivo el mantener la información de recuperación de la información ante posibles pérdidas. 
+
+●	Interfaz: Medio que permite la comunicación entre el usuario y el sistema.
+
+●	BD: Base de Datos  es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente  para su posterior uso.
+
+●	Requerimientos funcionales (RF): describen las capacidades o funciones que el sistema será capaz de realizar.
+
+●	Requerimientos no funcionales (RNF): restricciones o características que de delimitan el sistema, como por ejemplo, rendimiento, interfaces de usuario, fiabilidad, seguridad, portabilidad, normas, entre otros.
+
+●	Requerimientos de interfaz de usuario (RIU): describen lo que el usuario vera finalmente. 
+
+●	Sistema Web: también conocido como “aplicación Web” son aquellos que están creados e instalados no sobre una plataforma o sistemas operativos  (Windows, Linux). Sino que se aloja en un servidor en Internet o sobre una intranet (red local).
 ***1.4 Referencias***
- -referencia [rf]
- -Título [título]
- -Ruta [ruta]
- -Fecha [fecha]
- -Autor [autor]
+ https://m.youtube.com/watch?v=rvW0ZrRDyd0
+https://es.m.wikipedia.org/wiki/Optimizaci%C3%B3n_de_software
 ***1.5 Apreciación Global***
--Este docuemento está conformado de tres secciones que son la 1.introducción, 2.la descripción global y 3. los requisitos específicos. 
--En la segunda sección se da una descripción general del sistema a construir, para conocer sus funciones pricinpales, los datos requeridos, y sus restricciones, entre otras cosas que afectan su desarrollo, aunque no se entra en los detalles de cada uno de estos factores. 
--En la tercera se definen los pormenores de los requisitos que el ususario ha externado que el sistema actual cumple y por lo tanto el nuevo sistema debe satisfacer.
+En la primera parte de este documento, se ha presentado una corta introducción.
+En el siguiente capítulo observara la perspectiva del proyecto, con sus funciones, especificaciones y características del proyecto mismo y de sus futuros usuarios. 
+En el ítem 3 se presenta una especificación detallada de requerimientos que son necesarios para el análisis, diseño, desarrollo e implementación del sistema. 
 
 ***2. Descripción General***
 
