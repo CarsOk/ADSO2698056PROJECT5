@@ -29,13 +29,7 @@
 ***1.Introducción***
 
 ***1.1.Propósito***
-- El propósito de este documento es describir lo acordado con el cliente y desarrollar al paso a paso para crear el sotfware que servirá para dar control y llevar un regsitro claro de los onjetos y optimizar sus ventas que entren y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, generará informe de las actividades semanales, mensuales y anuales. Además tales informes o reportes pueden ser ajustados para el usuario.
 ***1.2 Alcance***
-- El sistema permitirá llevar una optimización en el registro de los materiales y objetos que ingresen del negocio, además de otras funciones que se encuentran en en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
-* **Control y organización de registros**
-* **Administración de los espacios disponibles**
-* **Generar reportes**
-* **Optimización de su negocio**
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 -[DEFINICIONES.] 
 1. actualización-Insertar, Eliminar, Codificar los registros de los usuarios (profesores),Almacenamiento.
@@ -93,7 +87,7 @@ Protocolos usados para el control de la trasmisión en internet. Permite que dif
  -Fecha [fecha]
  -Autor [autor]
 ***1.5 Apreciación Global***
-- En la primera parte de este documento se ha presentado la corta introducción, en el siguiente capítulo obervará la perspectiva del proyecto en general, con sus funciuones, especificaciones y características del proyecto mismo y de sus futuros uduarios. Por ultimo se muestra con detalle de requerimientos que son necesarios para el análisis , diseño , desarrollo e implementación.
+
 
 ***2. Descripción General***
 
