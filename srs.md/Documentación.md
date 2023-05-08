@@ -27,15 +27,18 @@
 ## Especificación de Requerimientos
 
 ***1.Introducción***
-La siguiente Especificación de Requerimientos de Software (SRS) del sistema a construir, surge con la finalidad de proveer toda la información de lo que quiere el cliente que contenga el software. Tales requerimientos son la base a la hora de comenzar el desarrollo del Software. En este caso el software a desarrollar es la optimización de materiales puede ser abordada de diferentes maneras, dependiendo del tipo de sistema que se esté desarrollando y los objetivos de optimización que se quieran lograr.
+ La siguiente Especificación de Requerimientos de Software (SRS) del sistema a construir, surge con la finalidad de proveer toda la información de lo que quiere el cliente que contenga el software. Tales requerimientos son la base a la hora de comenzar el desarrollo del Software. En este caso el software a desarrollar es la optimización de materiales puede ser abordada de diferentes maneras, dependiendo del tipo de sistema que se esté desarrollando y los objetivos de optimización que se quieran lograr.
+
 ***1.1.Propósito***
-El propósito de este documento es describir lo acordado con el cliente y desarrollar el paso a paso para crear el software que servirá para dar control y llevar un registro de los objetos y optomizar sus ventas que ingresan y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, y elaborancion de materiales generando informes o reportes respectivos de las actividades de manera semanal, mensual y anual. Además tales informes pueden ser ajustados por el usuario.
+ El propósito de este documento es describir lo acordado con el cliente y desarrollar el paso a paso para crear el software que servirá para dar control y llevar un registro de los objetos y optomizar sus ventas que ingresan y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, y elaborancion de materiales generando informes o reportes respectivos de las actividades de manera semanal, mensual y anual. Además tales informes 
+pueden ser ajustados por el usuario.
+
 ***1.2 Alcance***
-El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
-●	Control y organización de registros.
-●	Administración de los espacios disponibles.
-●	Generar Reportes.
-●	Optimizacion de su negocio.
+ El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
+ ●	Control y organización de registros.
+ ●	Administración de los espacios disponibles.
+ ●	Generar Reportes.
+ ●	Optimizacion de su negocio.
 
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 ●	Backup: Las copias de seguridad en un sistema informático tienen por objetivo el mantener la información de recuperación de la información ante posibles pérdidas. 
@@ -74,32 +77,81 @@ En el ítem 3 se presenta una especificación detallada de requerimientos que so
 ***3. Requerimientos Específicos***
 
 ***3.1 Requerimientos Funcionales****
-| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
-|----------------------|------------|-----------|------------------------|
-| **Descripcion**      |                                                 |
-| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
-| **Proceso**          |                                                 |
-| **Efecto colateral** |                                                 |
-
- 
-
-| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
-|----------------------|------------|-----------|------------------------|
-| **Descripcion**      |                                                 |
-| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
-| **Proceso**          |                                                 |
-| **Efecto colateral** | 
 
 
+|Código|Nombre	|Fecha	|Grado Necesidad|
+|------|-------|-----|-----------------|
+RF-001	|MÓDULO DE LOGIN|13-04-2023	|ALTO
+|Descripción	|Al sistema solo accederá personal autorizada mediante rol asignado Entradas	Fuente	Salida	Destino	RestriccionesDatos personales(Usuario y  contraseña)	Base de datos	Interfaz Menú principal	Interfaz de Menú Principal	Solo se accederá a ciertos módulos del sistema según el rol del usuario|
+|Proceso|	
+●	Ingresar nombre y contraseña de usuario para Iniciar sesión.
+Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema
+●	Este Login No contará con opciones de recuperación de contraseña.|
+|Efecto Colateral|Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web, teniendo un límite de cuatro(4) intentos |
 
-| **Codigo**           | **Nombre** | **Fecha** | **Grado de necesidad** |
-|----------------------|------------|-----------|------------------------|
-| **Descripcion**      |                                                 |
-| **Entradas**         | **Fuente** | **Salida**| **Restricciones**      |
-| **Proceso**          |                                                 |
-| **Efecto colateral** |   
+|Código|Nombre|	Fecha|	Grado Necesidad|
+|------|-------|-----|-----------------|
+ RF-002	|REGISTRO DE MATERIALES|13-04-2023| ALTO
+|Descripción|	El sistema debe permitir el registro de materiales, asignándoles un rol (Administrador-UsuMat), este usuario es  quiene harán uso de las funcionalidades del sistema.
+Entradas Fuente	Salida	Destino	Restricciones
+Datos materiales 
+Identificación
+Formulario de Registro para materiales 	Registro satisfactorio	Base de Datos   	
+Un usuario tiene únicamente un rol|
+|Proceso|
+●	Recolección datos básicos materiales (de que producto es, cuánto vendió de ese producto,  cuánto gasto y vendió en la semana)
+●	Registro satisfactorio del usuario.
+Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los materiales que tendrán el rol de UsuMat.|
+|Efecto Colateral|	Los usuarios que tenga el rol de UsuMat no tendrán acceso a todas las funcionalidades del sistema.|
 
 
+|Código|Nombre|	Fecha|	Grado Necesidad|
+|------|-------|-----|-----------------|
+ RF-003	|REGISTRO DE MATERIALES |13-04-2023|  ALTO
+|Descripción| El sistema debe permitir registrar materiales que ingresarán del negocio..
+Entradas	Fuente	Salida	Destino	Restricciones
+Características del material.	Formulario de registro para los materiales 	Material 
+registrado	Base de datos	N/A|
+|Proceso|	El usuario del sistema deberá registrar la siguiente información del producto.: 
+De Tipo,  Marca.|
+|Efecto Colateral|Se relaciona la información del registro de materiales para saber que compañía compro su producto.|
+
+
+|Código	|Nombre|Fecha|Grado Necesidad|
+|------|-------|-----|-----------------|
+ RF-004|REGISTRO DE SOLICITUDES |13-04-2023 | ALTO
+|Descripción	La administradora  podrán indicar las  peticiones y quejas referentes a cualquier inconveniente que se presente con alguno de los productos o materiales que tenga en su negocio.
+Entradas	Fuente	Salida	Destino	Restricciones
+Descripción de Anotación o queja. 	Formulario para el registro de las solicitudes	Registro de la solicitud.	 Base de datos	NINGUNA |
+|Proceso	|
+●	La administradora  debe acercare de forma personal a la persona en turno para que este pueda atenderlo de forma eficaz.
+●	Exponer su Solicitud o reclamo y anotar.|
+|Efecto Colateral|NINGUNO|
+
+|Código|	Nombre|	Fecha|	Grado Necesidad|
+|------|-------|-----|-----------------|
+ RF-005	| REPORTES|	13-04-2023| 	MEDIO 
+|Descripción|Generar informes respectivos de las actividades de ingreso-salida
+Entradas	Fuente	Salida	Destino	Restricciones
+ Registros diarios, semanales, mensuales etc.	 Registros de la base de dato	Reporte	 Base de datos.
+Interfaz de reportes	Solo los administradores pueden acceder a este módulo. |
+|Proceso|
+Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
+●	Seleccionar opciones de lista de chequeo
+●	Adaptar las fechas (Desde-Hasta) o simplemente la fecha actual.
+●	Clic sobre el botón “generar”
+●	Visualizar reporte.
+El reporte se puede descargar o imprimir directamente.|
+|Efecto Colateral|	NINGUNO|
+
+|Código|	Nombre|	Fecha|	Grado Necesidad|
+|------|-------|-----|-----------------|
+ RF-006	|AYUDAv13-04-2023 ||ALTO 
+|Descripción|	El sistema tendrá una botón que permitirá que re direccionara a un archivo PDF donde se hallará información de ayuda
+Entradas	Fuente	Salida	Destino	Restricciones
+Duda, pregunta del usuario	Archivo PDF	Nueva pestaña con el PDF	Nueva pestaña con el pdf|
+|Proceso|	El usuario del sistema podrá realizar consultar dudas en un manual de ayuda para saber cómo ejecutar una funcionalidad del sistema.|
+|Efecto Colateral|	NINGUNO|
 
 ***3.2.Requerimientos No funcionales***
 
