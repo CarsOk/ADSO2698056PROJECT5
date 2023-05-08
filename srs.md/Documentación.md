@@ -29,10 +29,13 @@
 ***1.Introducción***
 
 ***1.1.Propósito***
--Tener como objetivo claro y definir de manera clara y precisa las funcionalidades, restricciones que tendrá el sistema que se desea construir, y va dirigida al equipo de desarrollo de software y a las personas que harán uso del sistema terminado. Este documento será un medio de comunicación entre cada uno de los usuarios, hasta obtener su aprobación. En cuanto esto ocurra el documento para la construcción del nuevo sistema.
+- El propósito de este documento es describir lo acordado con el cliente y desarrollar al paso a paso para crear el sotfware que servirá para dar control y llevar un regsitro claro de los onjetos y optimizar sus ventas que entren y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, generará informe de las actividades semanales, mensuales y anuales. Además tales informes o reportes pueden ser ajustados para el usuario.
 ***1.2 Alcance***
--El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
-Este sistema se encargará de facilitar las operaciones realizadas en los (centros de autoservicio) de manera cotidiana con sus productos, tales como compras, ventas e inventarios, echando mano de la base de datos de la empresa y cuidando su compatibilidad con otras aplicaciones de la misma empresa.
+- El sistema permitirá llevar una optimización en el registro de los materiales y objetos que ingresen del negocio, además de otras funciones que se encuentran en en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
+* **Control y organización de registros**
+* **Administración de los espacios disponibles**
+* **Generar reportes**
+* **Optimización de su negocio**
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 -[DEFINICIONES.] 
 1. actualización-Insertar, Eliminar, Codificar los registros de los usuarios (profesores),Almacenamiento.
@@ -90,9 +93,7 @@ Protocolos usados para el control de la trasmisión en internet. Permite que dif
  -Fecha [fecha]
  -Autor [autor]
 ***1.5 Apreciación Global***
--Este docuemento está conformado de tres secciones que son la 1.introducción, 2.la descripción global y 3. los requisitos específicos. 
--En la segunda sección se da una descripción general del sistema a construir, para conocer sus funciones pricinpales, los datos requeridos, y sus restricciones, entre otras cosas que afectan su desarrollo, aunque no se entra en los detalles de cada uno de estos factores. 
--En la tercera se definen los pormenores de los requisitos que el ususario ha externado que el sistema actual cumple y por lo tanto el nuevo sistema debe satisfacer.
+- En la primera parte de este documento se ha presentado la corta introducción, en el siguiente capítulo obervará la perspectiva del proyecto en general, con sus funciuones, especificaciones y características del proyecto mismo y de sus futuros uduarios. Por ultimo se muestra con detalle de requerimientos que son necesarios para el análisis , diseño , desarrollo e implementación.
 
 ***2. Descripción General***
 
