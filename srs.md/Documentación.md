@@ -56,8 +56,7 @@ pueden ser ajustados por el usuario.
 ●	Sistema Web: también conocido como “aplicación Web” son aquellos que están creados e instalados no sobre una plataforma o sistemas operativos  (Windows, Linux). Sino que se aloja en un servidor en Internet o sobre una intranet (red local).
 
 ***1.4 Referencias***
- https://m.youtube.com/watch?v=rvW0ZrRDyd0
-https://es.m.wikipedia.org/wiki/Optimizaci%C3%B3n_de_software
+ Titulos, fechas, codigos.
 
 ***1.5 Apreciación Global***
 En la primera parte de este documento, se ha presentado una corta introducción.
