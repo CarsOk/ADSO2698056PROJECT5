@@ -67,14 +67,30 @@ En el ítem 3 se presenta una especificación detallada de requerimientos que so
 ***2. Descripción General***
 
 ***2.1 Perspectivas del Producto***
+Con este sistema se espera una mejora en la forma de cómo se maneja parte del negocio,dicho sistema será la mejor arma ante inconvenientes de la administradora, además la mayoría de lugares públicos como privados manejan sistemas similares a este, es por eso que el negocio  contará con el suyo gracias al esfuerzo de quienes trabajaran en él. 
+
 
 ***2.2 Funciones del Producto***
+Este software cumplirá con las siguientes funciones:
+
+●	Registrar materiales con el precio..
+●	Registrar  los materiales  que ingresarán al negocio.
+●	Registrar los materiales (ajenos y pertenecientes del negocio)
+●	Registrar Solicitudes que los propietarios/poseedores tengan.
+
+●	Realizar consultas en una interfaz con filtros exclusiva para esto.
+●	Generar reportes de las actividades (ingresos/salidas) que hubieron en el negocio.
+
 
 ***2.3 Características de Usuario***
+La usurua  que interactuara con este sistema es la personas encargada de velar por la seguridad y bienestar del negocio,  quienes han trabajado con un “sistema” que es ineficiente para su labor (optomizar sus materiales y ventas de ello  ), sus expectativas son altas con este sistema (OSGC).
+
 
 ***2.4 Restricciones***
+Para este sistema las posibles restricciones son el tiempo que tomará el desarrollo de este, recursos donde se implantara el sistema, el nivel del lenguaje programación para los desarrolladores.
 
 ***2.5 Atención y Dependencias***
+El sistema será un apoyo para los procesos de ingresos y salida de objetos y optimización del negocio. Con ciertos elementos y herramientas de ayuda para dicho fin. 
 
 ***3. Requerimientos Específicos***
 
