@@ -119,7 +119,7 @@ Un usuario tiene únicamente un rol|
 ●	Recolección datos básicos materiales (de que producto es, cuánto vendió de ese producto,  cuánto gasto y vendió en la semana)
 ●	Registro satisfactorio del usuario.
 Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los materiales que tendrán el rol de UsuMat.|
-|Efecto Colateral|	Los usuarios que tenga el rol de UsuMat no tendrán acceso a todas las funcionalidades del sistema.|
+|Efecto Colateral|	Los usuarios que no tenga el rol de UsuMat no tendrán acceso a todas las funcionalidades del sistema.|
 
 
 |Código|Nombre|	Fecha|	Grado Necesidad|
