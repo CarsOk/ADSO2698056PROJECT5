@@ -160,10 +160,14 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad**| ALTO      |
 |**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-002|SEGURIDAD|13-04-2023|ALTO|
-|Descripción| Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
+|**Código**         | RFN-002   | 
+|-------------------------------| 
+|**Nombre**         | SEGURIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
+ Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
+
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|------|-----|---------------|
