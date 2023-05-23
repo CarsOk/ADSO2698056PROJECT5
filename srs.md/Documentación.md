@@ -105,15 +105,18 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
 |**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
 
-|Código|Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-002	|REGISTRO DE MATERIALES|13-04-2023| ALTO
-|Descripción|	El sistema debe permitir el registro de materiales, asignándoles un rol (Administrador-UsuMat), este usuario es  quiene harán uso de las funcionalidades del sistema.
-Entradas Fuente	Salida	Destino	Restricciones
-Datos materiales 
-Identificación
-Formulario de Registro para materiales 	Registro satisfactorio	Base de Datos   	
-Un usuario tiene únicamente un rol|
+|**Código**          | RF-002                 | 
+|---------------------------------------------|
+|**Nombre**	         | Registro de materiales |
+|**Fecha**	         | 13/04/23               | 
+|**Grado Necesidad** | ALTO                   |
+|**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
+|**Entrada**         | Usuario                | 
+|**Fuente**          | Propietario del negocio|
+|**Salida**          | cantidad de productos  | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Descripción**     |	
 |Proceso|
 ●	Recolección datos básicos materiales (de que producto es, cuánto vendió de ese producto,  cuánto gasto y vendió en la semana)
 ●	Registro satisfactorio del usuario.
