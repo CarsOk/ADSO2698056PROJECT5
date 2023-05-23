@@ -93,119 +93,115 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 ***3. Requerimientos Específicos***
 
-***3.1 Requerimientos Funcionales****
+***3.1 Requerimientos Funcionales***
 
 
-|Código|Nombre	|Fecha	|Grado Necesidad|
-|------|-------|-----|-----------------|
-RF-001	|MÓDULO DE LOGIN|13-04-2023	|ALTO
-|Descripción	|Al sistema solo accederá personal autorizada mediante rol asignado Entradas	Fuente	Salida	Destino	RestriccionesDatos personales(Usuario y  contraseña)	Base de datos	Interfaz Menú principal	Interfaz de Menú Principal	Solo se accederá a ciertos módulos del sistema según el rol del usuario|
-|Proceso|	
-●	Ingresar nombre y contraseña de usuario para Iniciar sesión.
-Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema
-●	Este Login No contará con opciones de recuperación de contraseña.|
-|Efecto Colateral|Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web, teniendo un límite de cuatro(4) intentos |
+|**Código**          | RF-001          | 
+|--------------------------------------|
+|**Nombre**	         | MODULO DE LOGIN |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Descripción**  	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente) |
+|**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
+|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
 
-|Código|Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-002	|REGISTRO DE MATERIALES|13-04-2023| ALTO
-|Descripción|	El sistema debe permitir el registro de materiales, asignándoles un rol (Administrador-UsuMat), este usuario es  quiene harán uso de las funcionalidades del sistema.
-Entradas Fuente	Salida	Destino	Restricciones
-Datos materiales 
-Identificación
-Formulario de Registro para materiales 	Registro satisfactorio	Base de Datos   	
-Un usuario tiene únicamente un rol|
-|Proceso|
-●	Recolección datos básicos materiales (de que producto es, cuánto vendió de ese producto,  cuánto gasto y vendió en la semana)
-●	Registro satisfactorio del usuario.
-Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los materiales que tendrán el rol de UsuMat.|
-|Efecto Colateral|	Los usuarios que no tenga el rol de UsuMat no tendrán acceso a todas las funcionalidades del sistema.|
+|**Código**          | RF-002                 | 
+|---------------------------------------------|
+|**Nombre**	         | Registro de productos  |
+|**Fecha**	         | 13/04/23               | 
+|**Grado Necesidad** | ALTO                   |
+|**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
+|**Entrada**         | Usuario                | 
+|**Fuente**          | Propietario del negocio|
+|**Salida**          | cantidad de productos  | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
+|**Efecto Colateral**| Error al ingresar      | 
 
+|**Código**          | RF-003                 | 
+|---------------------------------------------|
+|**Nombre**	         | Registro de solicitudes|
+|**Fecha**	         | 13/04/23               | 
+|**Grado Necesidad** | ALTO                   |
+|**Descripción**  	 | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
+|**Entrada**         | Usuario cliente        | 
+|**Fuente**          | Administrador          |
+|**Salida**          | queja o inquietud      | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | ninguna                |
+|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
+|**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
 
-|Código|Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-003	|REGISTRO DE MATERIALES |13-04-2023|  ALTO
-|Descripción| El sistema debe permitir registrar materiales que ingresarán del negocio..
-Entradas	Fuente	Salida	Destino	Restricciones
-Características del material.	Formulario de registro para los materiales 	Material 
-registrado	Base de datos	N/A|
-|Proceso|	El usuario del sistema deberá registrar la siguiente información del producto.: 
-De Tipo,  Marca.|
-|Efecto Colateral|Se relaciona la información del registro de materiales para saber que compañía compro su producto.|
-
-
-|Código	|Nombre|Fecha|Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-004|REGISTRO DE SOLICITUDES |13-04-2023 | ALTO
-|Descripción	La administradora  podrán indicar las  peticiones y quejas referentes a cualquier inconveniente que se presente con alguno de los productos o materiales que tenga en su negocio.
-Entradas	Fuente	Salida	Destino	Restricciones
-Descripción de Anotación o queja. 	Formulario para el registro de las solicitudes	Registro de la solicitud.	 Base de datos	NINGUNA |
-|Proceso	|
-●	La administradora  debe acercare de forma personal a la persona en turno para que este pueda atenderlo de forma eficaz.
-●	Exponer su Solicitud o reclamo y anotar.|
-|Efecto Colateral|NINGUNO|
-
-|Código|	Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-005	| REPORTES|	13-04-2023| 	MEDIO 
-|Descripción|Generar informes respectivos de las actividades de ingreso-salida
-Entradas	Fuente	Salida	Destino	Restricciones
- Registros diarios, semanales, mensuales etc.	 Registros de la base de dato	Reporte	 Base de datos.
-Interfaz de reportes	Solo los administradores pueden acceder a este módulo. |
-|Proceso|
-Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
+|**Código**          | RF-004                 | 
+|---------------------------------------------|
+|**Nombre**	         | REPORTES               |
+|**Fecha**	         | 13/04/23               | 
+|**Grado Necesidad** | ALTO                   |
+|**Descripción**  	 | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
+|**Entrada**         | Usuario administrador  | 
+|**Fuente**          | Administrador          |
+|**Salida**          | reporte                | 
+|**Destino**         | usuario administrador  |
+|**Restricciones**   | usuario valido         |
+|**Proceso**         | Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
 ●	Seleccionar opciones de lista de chequeo
-●	Adaptar las fechas (Desde-Hasta) o simplemente la fecha actual.
-●	Clic sobre el botón “generar”
-●	Visualizar reporte.
-El reporte se puede descargar o imprimir directamente.|
-|Efecto Colateral|	NINGUNO|
-
-|Código|	Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-006	|AYUDAv13-04-2023 ||ALTO 
-|Descripción|	El sistema tendrá una botón que permitirá que re direccionara a un archivo PDF donde se hallará información de ayuda
-Entradas	Fuente	Salida	Destino	Restricciones
-Duda, pregunta del usuario	Archivo PDF	Nueva pestaña con el PDF	Nueva pestaña con el pdf|
-|Proceso|	El usuario del sistema podrá realizar consultar dudas en un manual de ayuda para saber cómo ejecutar una funcionalidad del sistema.|
-|Efecto Colateral|	NINGUNO|
+●	Adaptar las fechas (Desde-Hasta).
+●	Clic sobre el botón “generar” y esperar 
+●	Visualizar reporte.|
+|**Efecto Colateral**| ninguno               | 
 
 ***3.2.Requerimientos No funcionales***
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|-------|-----|-----------------|
-|RFN-001|DESEMPEÑO|13-04-2023|ALTO|
-|Descripción |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
+|**Código**         | RFN-001   | 
+|-------------------------------| 
+|**Nombre**         | DESEMPEÑO | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-002|SEGURIDAD|13-04-2023|ALTO|
-|Descripción| Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
+|**Código**         | RFN-002   | 
+|-------------------------------| 
+|**Nombre**         | SEGURIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
+ Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|---------------|
-|RFN-003|USABILIDAD|13-04-2023|ALTO|
-|Descripción |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
+|**Código**         | RFN-003   | 
+|-------------------------------| 
+|**Nombre**         |USABILIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-004|DISPONIBILIDAD|13-04-2023|ALTO|
-|Descripción |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
+|**Código**         | RFN-004       | 
+|-----------------------------------| 
+|**Nombre**         |DISPONIBILIDAD | 
+|**Fecha**          | 13/04/23      | 
+|**Grado Necesidad**| ALTO          |
+|**Descripción**    |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-006|FIABILIDAD|13-04-2023|ALTO|
-|Descripción |La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.|
+|**Código**         | RFN-005   | 
+|-------------------------------| 
+|**Nombre**         |FIABILIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-007|MANTENIBILIDAD|13-04-2023|ALTO|
-|Descripción |El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse. Asegurar que no se pierda los datos de la base de datos. En casos de falla del servidor la responsable es la compañía de alquiler de hosting. Por otra parte, se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema.|
+|**Código**         | RFN-006      | 
+|----------------------------------| 
+|**Nombre**         |MANTENIBILIDAD| 
+|**Fecha**          | 13/04/23     | 
+|**Grado Necesidad**| ALTO         |
+|**Descripción**    |El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse. Asegurar que no se pierda los datos de la base de datos. En casos de falla del servidor la responsable es la compañía de alquiler de hosting. Por otra parte, se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-008|PORTABILIDAD|13-04-2023|ALTO|
-|Descripción| En cuanto a este requerimiento, podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente. Sin embargo se recomienda el uso del navegador Google Chrome.|
+|**Código**         | RFN-007    | 
+|--------------------------------| 
+|**Nombre**         |PORTABILIDAD| 
+|**Fecha**          | 13/04/23   | 
+|**Grado Necesidad**| ALTO       |
+|**Descripción**    |En cuanto a este requerimiento, podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente. Sin embargo se recomienda el uso del navegador Google Chrome.|
 
 3.3 Requerimientos de interfaz de usuario
 
