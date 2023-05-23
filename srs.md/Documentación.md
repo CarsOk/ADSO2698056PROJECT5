@@ -143,9 +143,13 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fuente**          | Administrador          |
 |**Salida**          | reporte                | 
 |**Destino**         | usuario administrador  |
-|**Restricciones**   |                |
-|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
-|**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
+|**Restricciones**   | usuario valido         |
+|**Proceso**         | Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
+●	Seleccionar opciones de lista de chequeo
+●	Adaptar las fechas (Desde-Hasta).
+●	Clic sobre el botón “generar” y esperar 
+●	Visualizar reporte.|
+|**Efecto Colateral**| ninguno               | 
 |Código|	Nombre|	Fecha|	Grado Necesidad|
 |------|-------|-----|-----------------|
  RF-005	| REPORTES|	13-04-2023| 	MEDIO 
@@ -154,11 +158,7 @@ Entradas	Fuente	Salida	Destino	Restricciones
  Registros diarios, semanales, mensuales etc.	 Registros de la base de dato	Reporte	 Base de datos.
 Interfaz de reportes	Solo los administradores pueden acceder a este módulo. |
 |Proceso|
-Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
-●	Seleccionar opciones de lista de chequeo
-●	Adaptar las fechas (Desde-Hasta) o simplemente la fecha actual.
-●	Clic sobre el botón “generar”
-●	Visualizar reporte.
+
 El reporte se puede descargar o imprimir directamente.|
 |Efecto Colateral|	NINGUNO|
 
