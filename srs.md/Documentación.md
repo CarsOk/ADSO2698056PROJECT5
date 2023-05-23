@@ -175,10 +175,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad**| ALTO      |
 |**Descripción**    |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-004|DISPONIBILIDAD|13-04-2023|ALTO|
-|Descripción |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
+|**Código**         | RFN-004       | 
+|-----------------------------------| 
+|**Nombre**         |DISPONIBILIDAD | 
+|**Fecha**          | 13/04/23      | 
+|**Grado Necesidad**| ALTO          |
+|**Descripción**    |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|------|-----|----------------|
