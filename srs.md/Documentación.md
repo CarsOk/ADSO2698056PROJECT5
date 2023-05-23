@@ -168,11 +168,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
  Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
 
-
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|---------------|
-|RFN-003|USABILIDAD|13-04-2023|ALTO|
-|Descripción |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
+|**Código**         | RFN-003   | 
+|-------------------------------| 
+|**Nombre**         |USABILIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|------|-----|----------------|
