@@ -182,10 +182,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad**| ALTO          |
 |**Descripción**    |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-006|FIABILIDAD|13-04-2023|ALTO|
-|Descripción |La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.|
+|**Código**         | RFN-005   | 
+|-------------------------------| 
+|**Nombre**         |FIABILIDAD | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.|
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|------|-----|----------------|
