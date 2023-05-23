@@ -150,26 +150,6 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Clic sobre el botón “generar” y esperar 
 ●	Visualizar reporte.|
 |**Efecto Colateral**| ninguno               | 
-|Código|	Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-005	| REPORTES|	13-04-2023| 	MEDIO 
-|Descripción|Generar informes respectivos de las actividades de ingreso-salida
-Entradas	Fuente	Salida	Destino	Restricciones
- Registros diarios, semanales, mensuales etc.	 Registros de la base de dato	Reporte	 Base de datos.
-Interfaz de reportes	Solo los administradores pueden acceder a este módulo. |
-|Proceso|
-
-El reporte se puede descargar o imprimir directamente.|
-|Efecto Colateral|	NINGUNO|
-
-|Código|	Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-006	|AYUDAv13-04-2023 ||ALTO 
-|Descripción|	El sistema tendrá una botón que permitirá que re direccionara a un archivo PDF donde se hallará información de ayuda
-Entradas	Fuente	Salida	Destino	Restricciones
-Duda, pregunta del usuario	Archivo PDF	Nueva pestaña con el PDF	Nueva pestaña con el pdf|
-|Proceso|	El usuario del sistema podrá realizar consultar dudas en un manual de ayuda para saber cómo ejecutar una funcionalidad del sistema.|
-|Efecto Colateral|	NINGUNO|
 
 ***3.2.Requerimientos No funcionales***
 
