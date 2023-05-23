@@ -153,10 +153,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 ***3.2.Requerimientos No funcionales***
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|-------|-----|-----------------|
-|RFN-001|DESEMPEÑO|13-04-2023|ALTO|
-|Descripción |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
+|**Código**         | RFN-001   | 
+|-------------------------------| 
+|**Nombre**         | DESEMPEÑO | 
+|**Fecha**          | 13/04/23  | 
+|**Grado Necesidad**| ALTO      |
+|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
 
 |Código|Nombre|Fecha|Grado Necesidad|
 |------|------|-----|----------------|
