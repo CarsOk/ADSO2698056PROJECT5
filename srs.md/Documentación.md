@@ -93,18 +93,17 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 ***3. Requerimientos Específicos***
 
-***3.1 Requerimientos Funcionales****
+***3.1 Requerimientos Funcionales***
 
 
-|Código|Nombre	|Fecha	|Grado Necesidad|
-|------|-------|-----|-----------------|
-RF-001	|MÓDULO DE LOGIN|13-04-2023	|ALTO
-|Descripción	|Al sistema solo accederá personal autorizada mediante rol asignado Entradas	Fuente	Salida	Destino	RestriccionesDatos personales(Usuario y  contraseña)	Base de datos	Interfaz Menú principal	Interfaz de Menú Principal	Solo se accederá a ciertos módulos del sistema según el rol del usuario|
-|Proceso|	
-●	Ingresar nombre y contraseña de usuario para Iniciar sesión.
-Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema
-●	Este Login No contará con opciones de recuperación de contraseña.|
-|Efecto Colateral|Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web, teniendo un límite de cuatro(4) intentos |
+|**Código**          | RF-001          | 
+|--------------------------------------|
+|**Nombre**	         | MODULO DE LOGIN |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Descripción**  	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente) |
+|**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
+|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
 
 |Código|Nombre|	Fecha|	Grado Necesidad|
 |------|-------|-----|-----------------|
