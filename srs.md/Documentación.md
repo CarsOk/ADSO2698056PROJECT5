@@ -99,18 +99,18 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-001          | 
 |--------------------------------------|
 |**Nombre**	         | MODULO DE LOGIN |
-|**Fecha**	         | 13/04/23        | 
+|**Fecha**	          | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
-|**Descripción**  	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente) |
+|**Descripción**   	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente) |
 |**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
 |**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
 
 |**Código**          | RF-002                 | 
 |---------------------------------------------|
 |**Nombre**	         | Registro de productos  |
-|**Fecha**	         | 13/04/23               | 
+|**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
-|**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
+|**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
 |**Entrada**         | Usuario                | 
 |**Fuente**          | Propietario del negocio|
 |**Salida**          | cantidad de productos  | 
@@ -122,9 +122,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-003                 | 
 |---------------------------------------------|
 |**Nombre**	         | Registro de solicitudes|
-|**Fecha**	         | 13/04/23               | 
+|**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
-|**Descripción**  	 | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
+|**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
 |**Entrada**         | Usuario cliente        | 
 |**Fuente**          | Administrador          |
 |**Salida**          | queja o inquietud      | 
@@ -136,9 +136,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-004                 | 
 |---------------------------------------------|
 |**Nombre**	         | REPORTES               |
-|**Fecha**	         | 13/04/23               | 
+|**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
-|**Descripción**  	 | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
+|**Descripción**  	  | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
 |**Entrada**         | Usuario administrador  | 
 |**Fuente**          | Administrador          |
 |**Salida**          | reporte                | 
