@@ -107,7 +107,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 |**Código**          | RF-002                 | 
 |---------------------------------------------|
-|**Nombre**	         | Registro de materiales |
+|**Nombre**	         | Registro de productos  |
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
@@ -116,12 +116,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | cantidad de productos  | 
 |**Destino**         | usuario que ingreso    |
 |**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
-|**Descripción**     |	
-|Proceso|
-●	Recolección datos básicos materiales (de que producto es, cuánto vendió de ese producto,  cuánto gasto y vendió en la semana)
-●	Registro satisfactorio del usuario.
-Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los materiales que tendrán el rol de UsuMat.|
-|Efecto Colateral|	Los usuarios que no tenga el rol de UsuMat no tendrán acceso a todas las funcionalidades del sistema.|
+|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
+|**Efecto Colateral**| Error al ingresar     | 
 
 
 |Código|Nombre|	Fecha|	Grado Necesidad|
