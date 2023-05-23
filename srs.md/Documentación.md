@@ -121,17 +121,11 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 |**Código**          | RF-003                 | 
 |---------------------------------------------|
-|**Nombre**	         | Registro de productos  |
+|**Nombre**	         | Registro de solicitudes|
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
-|**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
-|**Entrada**         | Usuario                | 
-|**Fuente**          | Propietario del negocio|
-|**Salida**          | cantidad de productos  | 
-|**Destino**         | usuario que ingreso    |
-|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
-|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
-|**Efecto Colateral**| Error al ingresar      | 
+|**Descripción**  	 | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
+
 
 
 |Código	|Nombre|Fecha|Grado Necesidad|
