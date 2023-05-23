@@ -196,10 +196,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad**| ALTO         |
 |**Descripción**    |El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse. Asegurar que no se pierda los datos de la base de datos. En casos de falla del servidor la responsable es la compañía de alquiler de hosting. Por otra parte, se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema.|
 
-|Código|Nombre|Fecha|Grado Necesidad|
-|------|------|-----|----------------|
-|RFN-008|PORTABILIDAD|13-04-2023|ALTO|
-|Descripción| En cuanto a este requerimiento, podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente. Sin embargo se recomienda el uso del navegador Google Chrome.|
+|**Código**         | RFN-007    | 
+|--------------------------------| 
+|**Nombre**         |PORTABILIDAD| 
+|**Fecha**          | 13/04/23   | 
+|**Grado Necesidad**| ALTO       |
+|**Descripción**    |En cuanto a este requerimiento, podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente. Sin embargo se recomienda el uso del navegador Google Chrome.|
 
 3.3 Requerimientos de interfaz de usuario
 
