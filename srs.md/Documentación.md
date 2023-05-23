@@ -125,19 +125,13 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**  	 | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
-
-
-
-|Código	|Nombre|Fecha|Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-004|REGISTRO DE SOLICITUDES |13-04-2023 | ALTO
-|Descripción	La administradora  podrán indicar las  peticiones y quejas referentes a cualquier inconveniente que se presente con alguno de los productos o materiales que tenga en su negocio.
-Entradas	Fuente	Salida	Destino	Restricciones
-Descripción de Anotación o queja. 	Formulario para el registro de las solicitudes	Registro de la solicitud.	 Base de datos	NINGUNA |
-|Proceso	|
-●	La administradora  debe acercare de forma personal a la persona en turno para que este pueda atenderlo de forma eficaz.
-●	Exponer su Solicitud o reclamo y anotar.|
-|Efecto Colateral|NINGUNO|
+|**Entrada**         | Usuario cliente        | 
+|**Fuente**          | Administrador          |
+|**Salida**          | queja o inquietud      | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | ninguna                |
+|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
+|**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
 
 |Código|	Nombre|	Fecha|	Grado Necesidad|
 |------|-------|-----|-----------------|
