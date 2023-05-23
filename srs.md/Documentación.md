@@ -97,7 +97,6 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 
 |**Código**          | RF-001          | 
-|--------------------------------------|
 |**Nombre**	         | MODULO DE LOGIN |
 |**Fecha**	          | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
