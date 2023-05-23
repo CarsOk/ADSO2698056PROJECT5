@@ -119,17 +119,19 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
-
-|Código|Nombre|	Fecha|	Grado Necesidad|
-|------|-------|-----|-----------------|
- RF-003	|REGISTRO DE MATERIALES |13-04-2023|  ALTO
-|Descripción| El sistema debe permitir registrar materiales que ingresarán del negocio..
-Entradas	Fuente	Salida	Destino	Restricciones
-Características del material.	Formulario de registro para los materiales 	Material 
-registrado	Base de datos	N/A|
-|Proceso|	El usuario del sistema deberá registrar la siguiente información del producto.: 
-De Tipo,  Marca.|
-|Efecto Colateral|Se relaciona la información del registro de materiales para saber que compañía compro su producto.|
+|**Código**          | RF-003                 | 
+|---------------------------------------------|
+|**Nombre**	         | Registro de productos  |
+|**Fecha**	         | 13/04/23               | 
+|**Grado Necesidad** | ALTO                   |
+|**Descripción**  	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
+|**Entrada**         | Usuario                | 
+|**Fuente**          | Propietario del negocio|
+|**Salida**          | cantidad de productos  | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
+|**Efecto Colateral**| Error al ingresar      | 
 
 
 |Código	|Nombre|Fecha|Grado Necesidad|
