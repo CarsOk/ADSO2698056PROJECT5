@@ -97,6 +97,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 
 |**Código**          | RF-001          | 
+|--------------------|-----------------|
 |**Nombre**	         | MODULO DE LOGIN |
 |**Fecha**	          | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
@@ -105,9 +106,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
 
 |**Código**          | RF-002                 | 
-|---------------------------------------------|
+|--------------------|------------------------|
 |**Nombre**	         | Registro de productos  |
-|**Fecha**	          | 13/04/23               | 
+|**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
 |**Entrada**         | Usuario                | 
@@ -119,7 +120,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Efecto Colateral**| Error al ingresar      | 
 
 |**Código**          | RF-003                 | 
-|---------------------------------------------|
+|--------------------|------------------------|
 |**Nombre**	         | Registro de solicitudes|
 |**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
@@ -133,7 +134,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
 
 |**Código**          | RF-004                 | 
-|---------------------------------------------|
+|--------------------|------------------------|
 |**Nombre**	         | REPORTES               |
 |**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
@@ -153,14 +154,14 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ***3.2.Requerimientos No funcionales***
 
 |**Código**         | RFN-001   | 
-|-------------------------------| 
+|-------------------|-----------| 
 |**Nombre**         | DESEMPEÑO | 
 |**Fecha**          | 13/04/23  | 
 |**Grado Necesidad**| ALTO      |
 |**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
 
 |**Código**         | RFN-002   | 
-|-------------------------------| 
+|-------------------|-----------| 
 |**Nombre**         | SEGURIDAD | 
 |**Fecha**          | 13/04/23  | 
 |**Grado Necesidad**| ALTO      |
@@ -168,28 +169,28 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
  Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
 
 |**Código**         | RFN-003   | 
-|-------------------------------| 
+|-------------------|-----------| 
 |**Nombre**         |USABILIDAD | 
 |**Fecha**          | 13/04/23  | 
 |**Grado Necesidad**| ALTO      |
 |**Descripción**    |El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.|
 
 |**Código**         | RFN-004       | 
-|-----------------------------------| 
+|-------------------|---------------| 
 |**Nombre**         |DISPONIBILIDAD | 
 |**Fecha**          | 13/04/23      | 
 |**Grado Necesidad**| ALTO          |
 |**Descripción**    |La disponibilidad del sistema del sistema le corresponde al negocio, que el servidor donde se alojara el sistema esté en funcionamiento en los horarios de atención.|
 
 |**Código**         | RFN-005   | 
-|-------------------------------| 
+|-------------------|-----------| 
 |**Nombre**         |FIABILIDAD | 
 |**Fecha**          | 13/04/23  | 
 |**Grado Necesidad**| ALTO      |
 |**Descripción**    |La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.|
 
 |**Código**         | RFN-006      | 
-|----------------------------------| 
+|-------------------|--------------| 
 |**Nombre**         |MANTENIBILIDAD| 
 |**Fecha**          | 13/04/23     | 
 |**Grado Necesidad**| ALTO         |
