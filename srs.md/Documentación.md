@@ -197,7 +197,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Descripción**    |El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse. Asegurar que no se pierda los datos de la base de datos. En casos de falla del servidor la responsable es la compañía de alquiler de hosting. Por otra parte, se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema.|
 
 |**Código**         | RFN-007    | 
-|--------------------------------| 
+|-------------------|------------| 
 |**Nombre**         |PORTABILIDAD| 
 |**Fecha**          | 13/04/23   | 
 |**Grado Necesidad**| ALTO       |
