@@ -99,7 +99,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-001          | 
 |--------------------|-----------------|
 |**Nombre**	         | MODULO DE LOGIN |
-|**Fecha**	          | 13/04/23        | 
+|**Fecha**	         | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
 |**Descripción**   	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente) |
 |**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
@@ -149,7 +149,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Adaptar las fechas (Desde-Hasta).
 ●	Clic sobre el botón “generar” y esperar 
 ●	Visualizar reporte.|
-|**Efecto Colateral**| ninguno               | 
+|**Efecto Colateral**| ninguno                | 
 
 ***3.2.Requerimientos No funcionales***
 
