@@ -1,5 +1,5 @@
 # Tabla de Contenido
-### Nombre del proyecto:
+### Nombre del programa:
 # PAVP (Programa de administracion y venta de productos)
 
 **1.Introducción.4**
