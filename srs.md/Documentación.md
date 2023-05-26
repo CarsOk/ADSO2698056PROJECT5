@@ -37,26 +37,28 @@ pueden ser ajustados por el usuario.
 
 ***1.2 Alcance***
  El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
+ 
  ●	Control y organización de registros.
  
  ●	Administración de los espacios disponibles.
  
- ●Generar Reportes.
+ ● Generar Reportes.
  
  ●	Optimizacion de su negocio.
  
- lo que no vamos a hacer:
- ●Capacitacion.
+ Lo que no vamos a hacer:
  
- ●Internet.
+ ● Capacitacion.
  
- ●Servidor.
+ ● Internet.
  
- ●Garantia.
+ ● Servidor.
  
- ●El costo.
+ ● Garantia.
  
- ●tiempo
+ ● El costo.
+ 
+ ● tiempo
 
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 ●	Backup: Las copias de seguridad en un sistema informático tienen por objetivo el mantener la información de recuperación de la información ante posibles pérdidas. 
@@ -71,7 +73,7 @@ pueden ser ajustados por el usuario.
 
 ●	Requerimientos de interfaz de usuario (RIU): describen lo que el usuario vera finalmente. 
 
-●	Sistema Web: también conocido como “aplicación Web” son aquellos que están creados e instalados no sobre una plataforma o sistemas operativos  (Windows, Linux). Sino que se aloja en un servidor en Internet o sobre una intranet (red local).
+● Sistema Web: también conocido como “aplicación Web” son aquellos que están creados e instalados no sobre una plataforma o sistemas operativos  (Windows, Linux). Sino que se aloja en un servidor en Internet o sobre una intranet (red local).
 
 ***1.4 Referencias***
  Titulos, fechas, codigos.
@@ -90,12 +92,16 @@ Con este sistema se espera una mejora en la forma de cómo se maneja parte del n
 ***2.2 Funciones del Producto***
 Este software cumplirá con las siguientes funciones:
 
-●	Registrar materiales con el precio..
+●	Registrar materiales con el precio.
+
 ●	Registrar  los materiales  que ingresarán al negocio.
-●	Registrar los materiales (ajenos y pertenecientes del negocio)
+
+●	Registrar los materiales (ajenos y pertenecientes del negocio).
+
 ●	Registrar Solicitudes que los propietarios/poseedores tengan.
 
 ●	Realizar consultas en una interfaz con filtros exclusiva para esto.
+
 ●	Generar reportes de las actividades (ingresos/salidas) que hubieron en el negocio.
 
 
@@ -188,8 +194,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Nombre**         | SEGURIDAD | 
 |**Fecha**          | 13/04/23  | 
 |**Grado Necesidad**| ALTO      |
-|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.|
- Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
+|**Descripción**    |El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible. Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.Este requerimiento es de suma importancia como todo los demás, sin embargo la seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.|
 
 |**Código**         | RFN-003   | 
 |-------------------|-----------| 
