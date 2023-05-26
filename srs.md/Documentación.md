@@ -107,7 +107,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fuente**          | correo |
 |**Salida**          | contraseña|
 |**Destino**         | usuario que ingreso|
-|**Restricciones**   | Que el usuario tenga arroba(@), y la contraseña sea de 8caracteres y tenga caracteres especiales.|
+|**Restricciones**   | Que el correo de usuario tenga arroba(@), y la contraseña sea de 8caracteres y tenga caracteres especiales.|
 |**Descripción**   	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente)   |
 |**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
 |**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
