@@ -145,7 +145,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | cantidad de productos  | 
 |**Destino**         | usuario que ingreso    |
 |**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
-|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, quien es el proveedor, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) | 
+|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
 |**Código**          | RF-003                 | 
