@@ -92,11 +92,11 @@ Con este sistema se espera una mejora en la forma de cómo se maneja parte del n
 ***2.2 Funciones del Producto***
 Este software cumplirá con las siguientes funciones:
 
-●	Registrar materiales con el precio.
+●	Registrar productos con el precio.
 
-●	Registrar  los materiales  que ingresarán al negocio.
+●	Registrar  los productos  que ingresarán al negocio.
 
-●	Registrar los materiales (ajenos y pertenecientes del negocio).
+●	Registrar los productos (ajenos y pertenecientes del negocio).
 
 ●	Registrar Solicitudes que los propietarios/poseedores tengan.
 
