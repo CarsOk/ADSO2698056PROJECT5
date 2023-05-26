@@ -38,9 +38,25 @@ pueden ser ajustados por el usuario.
 ***1.2 Alcance***
  El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
  ●	Control y organización de registros.
+ 
  ●	Administración de los espacios disponibles.
- ●	Generar Reportes.
+ 
+ ●Generar Reportes.
+ 
  ●	Optimizacion de su negocio.
+ 
+ lo que no vamos a hacer:
+ ●Capacitacion.
+ 
+ ●Internet.
+ 
+ ●Servidor.
+ 
+ ●Garantia.
+ 
+ ●El costo.
+ 
+ ●tiempo
 
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 ●	Backup: Las copias de seguridad en un sistema informático tienen por objetivo el mantener la información de recuperación de la información ante posibles pérdidas. 
