@@ -29,14 +29,14 @@
 ## Especificación de Requerimientos
 
 ***1.Introducción***
- La siguiente Especificación de Requerimientos de Software (SRS) del sistema a construir, surge con la finalidad de proveer toda la información de lo que quiere el cliente que contenga el software. Tales requerimientos son la base a la hora de comenzar el desarrollo del Software. En este caso el software a desarrollar es la optimización de materiales puede ser abordada de diferentes maneras, dependiendo del tipo de sistema que se esté desarrollando y los objetivos de optimización que se quieran lograr.
+ La siguiente Especificación de Requerimientos de Software (SRS) del sistema a construir, surge con la finalidad de proveer toda la información de lo que quiere el cliente que contenga el software. Tales requerimientos son la base a la hora de comenzar el desarrollo del Software. En este caso el software a desarrollar es la optimización de productos puede ser abordada de diferentes maneras, dependiendo del tipo de sistema que se esté desarrollando y los objetivos de optimización que se quieran lograr.
 
 ***1.1.Propósito***
- El propósito de este documento es describir lo acordado con el cliente y desarrollar el paso a paso para crear el software que servirá para dar control y llevar un registro de los objetos y optomizar sus ventas que ingresan y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento al área de seguridad, y elaborancion de materiales generando informes o reportes respectivos de las actividades de manera semanal, mensual y anual. Además tales informes 
+ El propósito de este documento es describir lo acordado con el cliente y desarrollar el paso a paso para crear el software que servirá para dar control y llevar un registro de los productos y optimizar sus ventas que ingresan y salen de su negocio. Sistematizar estos procesos dará mejor rendimiento de productos generando informes o reportes respectivos de las actividades de manera semanal, mensual y anual. Además tales informes 
 pueden ser ajustados por el usuario.
 
 ***1.2 Alcance***
- El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de los materiales y objetos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
+ El sistema será una aplicación web que permitirá llevar una optimizacion  en el registro de productos que ingresan del negocio, además de otras funciones que se encuentran detalladas en la sesión de requisitos. Este sistema dará apoyo a los siguientes procesos:
  
  ●	Control y organización de registros.
  
@@ -46,19 +46,7 @@ pueden ser ajustados por el usuario.
  
  ●	Optimizacion de su negocio.
  
- Lo que no vamos a hacer:
- 
- ● Capacitacion.
- 
- ● Internet.
- 
- ● Servidor.
- 
- ● Garantia.
- 
- ● El costo.
- 
- ● tiempo
+ ● Capacitacion
 
 ***1.3 Definiciones, Acrónimos, y Abreviaturas***
 ●	Backup: Las copias de seguridad en un sistema informático tienen por objetivo el mantener la información de recuperación de la información ante posibles pérdidas. 
@@ -92,13 +80,9 @@ Con este sistema se espera una mejora en la forma de cómo se maneja parte del n
 ***2.2 Funciones del Producto***
 Este software cumplirá con las siguientes funciones:
 
-●	Registrar productos con el precio.
+●	Gestion de  productos 
 
-●	Registrar  los productos  que ingresarán al negocio.
-
-●	Registrar los productos (ajenos y pertenecientes del negocio).
-
-●	Registrar Solicitudes que los propietarios/poseedores tengan.
+● Gestion de solicitudes
 
 ●	Realizar consultas en una interfaz con filtros exclusiva para esto.
 
@@ -125,21 +109,21 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Nombre**	         | MODULO DE LOGIN |
 |**Fecha**	         | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
-|**Entrada**         | Usuario |
-|**Fuente**          | correo |
-|**Salida**          | contraseña|
-|**Destino**         | usuario que ingreso|
-|**Restricciones**   | Que el correo de usuario tenga arroba(@), y la contraseña sea de 8caracteres y tenga caracteres especiales.|
+|**Entrada**         | correo o telefono, contraseña |
+|**Fuente**          | formulario de ingreso|
+|**Salida**          | mensaje de bienenida|
+|**Destino**         | menu principal|
+|**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
 |**Descripción**   	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente)   |
 |**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
-|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, y si tiene un nombre de usuario invalido sugerirle uno valido. |
+|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, si tiene un nombre de usuario invalido sugerirle uno valido. |
 
 |**Código**          | RF-002                 | 
 |--------------------|------------------------|
-|**Nombre**	         | Registro de productos  |
+|**Nombre**	         | gestion de productos  |
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
-|**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necsarios. | 
+|**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necesarios. | 
 |**Entrada**         | Usuario                | 
 |**Fuente**          | Propietario del negocio|
 |**Salida**          | cantidad de productos  | 
@@ -150,7 +134,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 |**Código**          | RF-003                 | 
 |--------------------|------------------------|
-|**Nombre**	         | Registro de solicitudes|
+|**Nombre**	         | gestion de solicitudes|
 |**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
