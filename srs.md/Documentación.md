@@ -97,9 +97,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-002          | 
 |--------------------|-------------------|
 |**Nombre**	         | GESTION DE USUARIO |
-|**Fecha**	         | 13/04/23        | 
+|**Fecha**	         | 19/05/23        | 
 |**Grado Necesidad** | ALTO            |
-|**Entrada**         | nombre, apellidos, edad, ciudad, telefono, direccion, correo.   |
+|**Entrada**         | nombre, apellidos, edad, id , ciudad, telefono, direccion, correo.   |
 |**Fuente**          | formulario de registro|
 |**Salida**          | mensaje de "registro exitoso"|
 |**Destino**         | menu principal|
