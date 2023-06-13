@@ -134,7 +134,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Destino**         | usuario que ingreso    |
 |**Restricciones**   | ninguna                |
 |**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
-|**Efecto Colateral**| Ninguna.| 
+|**Efecto Colateral**| Ninguno.| 
 
 |**Código**          | RF-005                 | 
 |--------------------|------------------------|
@@ -153,6 +153,20 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Clic sobre el botón “generar” y esperar 
 ●	Visualizar reporte.|
 |**Efecto Colateral**| ninguno                | 
+
+|**Código**          | RF-006                 | 
+|--------------------|------------------------|
+|**Nombre**	         | AYUDA                  |
+|**Fecha**	          | 11/05/23               | 
+|**Grado Necesidad** | MEDIO                  |
+|**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
+|**Entrada**         | Usuario cliente        | 
+|**Fuente**          | Administrador          |
+|**Salida**          | queja o inquietud      | 
+|**Destino**         | usuario que ingreso    |
+|**Restricciones**   | ninguna                |
+|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
+|**Efecto Colateral**| Ninguno.| 
 
 ***3.2.Requerimientos No funcionales***
 
