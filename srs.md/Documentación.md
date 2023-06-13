@@ -129,9 +129,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad** | MEDIO                  |
 |**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
 |**Entrada**         | Usuario cliente        | 
-|**Fuente**          | Administrador          |
+|**Fuente**          | SISTEMA          |
 |**Salida**          | queja o inquietud      | 
-|**Destino**         | usuario que ingreso    |
+|**Destino**         | notificacion a administrador    |
 |**Restricciones**   | ninguna                |
 |**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
 |**Efecto Colateral**| Ninguno.| 
@@ -154,19 +154,20 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Visualizar reporte.|
 |**Efecto Colateral**| ninguno                | 
 
-|**Código**          | RF-006                 | 
-|--------------------|------------------------|
-|**Nombre**	         | AYUDA                  |
-|**Fecha**	          | 11/05/23               | 
-|**Grado Necesidad** | MEDIO                  |
-|**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
-|**Entrada**         | Usuario cliente        | 
-|**Fuente**          | Administrador          |
-|**Salida**          | queja o inquietud      | 
-|**Destino**         | usuario que ingreso    |
-|**Restricciones**   | ninguna                |
-|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
-|**Efecto Colateral**| Ninguno.| 
+|**Código**          | RF-002          | 
+|--------------------|-------------------|
+|**Nombre**	         | GESTION DE USUARIO |
+|**Fecha**	         | 19/05/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         | nombre, apellidos, edad, id , ciudad, telefono, direccion, correo.   |
+|**Fuente**          | formulario de registro|
+|**Salida**          | mensaje de "registro exitoso"|
+|**Destino**         | menu principal|
+|**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
+|**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
+|**Proceso**         | digitar datos pedidos para el registro|
+|**Efecto Colateral**| Ninguno. |
+
 
 ***3.2.Requerimientos No funcionales***
 
