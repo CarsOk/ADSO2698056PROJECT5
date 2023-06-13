@@ -91,8 +91,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Destino**         | menu principal|
 |**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
 |**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
-|**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal .
-|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, si tiene un nombre de usuario invalido sugerirle uno valido. |
+|**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
 |**Código**          | RF-002                 | 
 |--------------------|------------------------|
