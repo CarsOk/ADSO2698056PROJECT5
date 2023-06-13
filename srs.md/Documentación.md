@@ -87,7 +87,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad** | ALTO            |
 |**Entrada**         | correo o telefono, contraseña |
 |**Fuente**          | formulario de ingreso|
-|**Salida**          | mensaje de bienenida|
+|**Salida**          | mensaje de "Bienvenido(a)"|
 |**Destino**         | menu principal|
 |**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
 |**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
@@ -96,12 +96,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 |**Código**          | RF-002          | 
 |--------------------|-------------------|
-|**Nombre**	         | MODULO DE USUARIO |
+|**Nombre**	         | GESTION DE USUARIO |
 |**Fecha**	         | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
-|**Entrada**         | correo o telefono, contraseña |
-|**Fuente**          | formulario de ingreso|
-|**Salida**          | mensaje de bienenida|
+|**Entrada**         | nombre, apellidos, edad, ciudad, telefono, direccion, correo.   |
+|**Fuente**          | formulario de registro|
+|**Salida**          | mensaje de "registro exitoso"|
 |**Destino**         | menu principal|
 |**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
 |**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
