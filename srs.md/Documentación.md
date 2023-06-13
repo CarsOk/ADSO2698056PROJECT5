@@ -133,8 +133,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | queja o inquietud      | 
 |**Destino**         | usuario que ingreso    |
 |**Restricciones**   | ninguna                |
-|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
-|**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
+|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
+|**Efecto Colateral**| Ninguna.| 
 
 |**Código**          | RF-005                 | 
 |--------------------|------------------------|
