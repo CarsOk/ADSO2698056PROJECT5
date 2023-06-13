@@ -103,10 +103,10 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fuente**          | formulario de registro|
 |**Salida**          | mensaje de "registro exitoso"|
 |**Destino**         | menu principal|
-|**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
-|**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
-|**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+|**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
+|**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
+|**Proceso**         | digitar datos pedidos para el registro|
+|**Efecto Colateral**| Ninguno. |
 
 |**Código**          | RF-003                 | 
 |--------------------|------------------------|
