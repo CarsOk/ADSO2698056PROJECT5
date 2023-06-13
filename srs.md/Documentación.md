@@ -58,7 +58,7 @@ Este software cumplirá con las siguientes funciones:
 
 ●	Gestion de  productos 
 
-● Gestion de solicitudes
+●   Gestion de solicitudes
 
 ●	Realizar consultas en una interfaz con filtros exclusiva para esto.
 
