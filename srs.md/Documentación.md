@@ -143,7 +143,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**  	  | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
 |**Entrada**         | Usuario administrador  | 
-|**Fuente**          | Administrador          |
+|**Fuente**          | SISTEMA          |
 |**Salida**          | reporte                | 
 |**Destino**         | usuario administrador  |
 |**Restricciones**   | usuario valido         |
