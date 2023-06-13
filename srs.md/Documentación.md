@@ -94,7 +94,21 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
 |**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
-|**Código**          | RF-002                 | 
+|**Código**          | RF-002          | 
+|--------------------|-------------------|
+|**Nombre**	         | MODULO DE USUARIO |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         | correo o telefono, contraseña |
+|**Fuente**          | formulario de ingreso|
+|**Salida**          | mensaje de bienenida|
+|**Destino**         | menu principal|
+|**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
+|**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
+|**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
+|**Código**          | RF-003                 | 
 |--------------------|------------------------|
 |**Nombre**	         | gestion de productos  |
 |**Fecha**	         | 13/04/23               | 
@@ -108,11 +122,11 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
-|**Código**          | RF-003                 | 
+|**Código**          | RF-004                 | 
 |--------------------|------------------------|
 |**Nombre**	         | gestion de solicitudes|
 |**Fecha**	          | 13/04/23               | 
-|**Grado Necesidad** | ALTO                   |
+|**Grado Necesidad** | MEDIO                  |
 |**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
 |**Entrada**         | Usuario cliente        | 
 |**Fuente**          | Administrador          |
@@ -122,7 +136,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
 |**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
 
-|**Código**          | RF-004                 | 
+|**Código**          | RF-005                 | 
 |--------------------|------------------------|
 |**Nombre**	         | REPORTES               |
 |**Fecha**	          | 13/04/23               | 
