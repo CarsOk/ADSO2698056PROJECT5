@@ -158,7 +158,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |--------------------|-------------------|
 |**Nombre**	         | MODULO DE AYUDA |
 |**Fecha**	         | 11/05/23        | 
-|**Grado Necesidad** | ALTO            |
+|**Grado Necesidad** | MEDIO            |
 |**Entrada**         | correo o telefono, contraseña   |
 |**Fuente**          | boton de ayuda |
 |**Salida**          |  pdf de ayuda|
