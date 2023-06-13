@@ -160,12 +160,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fecha**	         | 11/05/23        | 
 |**Grado Necesidad** | ALTO            |
 |**Entrada**         | correo o telefono, contraseña   |
-|**Fuente**          | |
-|**Salida**          | mensaje de "espere un momento"|
-|**Destino**         | pdf de ayuda|
-|**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
-|**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
-|**Proceso**         | digitar datos pedidos para el registro|
+|**Fuente**          | boton de ayuda |
+|**Salida**          |  pdf de ayuda|
+|**Destino**         | dispositivo de usuario|
+|**Restricciones**   | Ninguna|
+|**Descripción**   	 | Este modulo les permitira conocer detalles del manejo adecuado del sistema, y responder posibles dudas. |
+|**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
 |**Efecto Colateral**| Ninguno. |
 
 
