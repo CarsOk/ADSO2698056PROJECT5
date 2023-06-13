@@ -2,30 +2,6 @@
 ### Nombre del programa:
 # PAVP (Programa de administracion y venta de productos)
 
-**1.Introducción.4**
-**1.1 Propósito 4**
-**1.2 Alcance 4**
-**1.3 Definiciones, Acrónimos, y Abreviaturas 4**
-**1.4 Referencias 5**
-**1.5 Apreciación Global 5**
-**2.Descripción.5**
-**2.1. del Producto.5**
-**2.2.Funciones del Producto.6**
-**2.3.Características de Usuario.6**
-**2.4.Restricciones.6**
-**2.5.Atención y Dependencias.6**
-**3.Requerimientos Específicos.7**
-**3.1.Requerimientos Funcionales.7**
-**3.2.Requerimientos No Funcionales.11**
-**3.3.Requerimientos de interfaz de usuario.14**
-**4.Determinación de las tecnologías de hardware, software y servicios requerido.16**
-**4.1.Software.16**
-**4.2.Hosting.17**
-**4.3.Computador.18**
-**4.4.Escáner Lector Código de Barras Automático USB Soporte Base.19**
-**4.5.Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N).20**
-**4.6.Presupuesto.21**
-
 ## Especificación de Requerimientos
 
 ***1.Introducción***
@@ -82,7 +58,7 @@ Este software cumplirá con las siguientes funciones:
 
 ●	Gestion de  productos 
 
-● Gestion de solicitudes
+●   Gestion de solicitudes
 
 ●	Realizar consultas en una interfaz con filtros exclusiva para esto.
 
@@ -111,49 +87,63 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Grado Necesidad** | ALTO            |
 |**Entrada**         | correo o telefono, contraseña |
 |**Fuente**          | formulario de ingreso|
-|**Salida**          | mensaje de bienenida|
+|**Salida**          | mensaje de "Bienvenido(a)"|
 |**Destino**         | menu principal|
 |**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
-|**Descripción**   	 |Al sistema pueden ingresar todos los usuarios que deseen y se registraran dependiendo su rol(Administrador, Empleado, Cliente)   |
-|**Proceso**         | En caso de administrador o empleado inice sesion (ya que se deberan encontrar previamente registrados). En caso de ser un cliente o un nuevo empleado debera registrarse.
-|**Efecto Colateral**|Error porque se le olvido la contraseña o tiene nombre de usuario no valido, para respuesta de esto si se le olvido la contraseña enviar un correo para restablecerla, si tiene un nombre de usuario invalido sugerirle uno valido. |
+|**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
+|**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
-|**Código**          | RF-002                 | 
+|**Código**          | RF-002          | 
+|--------------------|-------------------|
+|**Nombre**	         | GESTION DE USUARIO |
+|**Fecha**	         | 10/05/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         | nombre, apellidos, edad, id , ciudad, telefono, direccion, correo.   |
+|**Fuente**          | formulario de registro|
+|**Salida**          | mensaje de "registro exitoso"|
+|**Destino**         | menu principal|
+|**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
+|**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
+|**Proceso**         | digitar datos pedidos para el registro|
+|**Efecto Colateral**| Ninguno. |
+
+|**Código**          | RF-003                 | 
 |--------------------|------------------------|
 |**Nombre**	         | gestion de productos  |
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necesarios. | 
-|**Entrada**         | Usuario                | 
-|**Fuente**          | Propietario del negocio|
-|**Salida**          | cantidad de productos  | 
-|**Destino**         | usuario que ingreso    |
-|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Entrada**         | coreo o telefono, contraseña                | 
+|**Fuente**          | SISTEMA        |
+|**Salida**          | orden de productos  | 
+|**Destino**         | administrador    |
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
 |**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
-|**Código**          | RF-003                 | 
+|**Código**          | RF-004                 | 
 |--------------------|------------------------|
 |**Nombre**	         | gestion de solicitudes|
 |**Fecha**	          | 13/04/23               | 
-|**Grado Necesidad** | ALTO                   |
+|**Grado Necesidad** | MEDIO                  |
 |**Descripción**  	  | Los usuarios regstrados como clientes podran deja sus quejas o inquietudes referente a los productos que se le ofrecen en el negocio.| 
 |**Entrada**         | Usuario cliente        | 
-|**Fuente**          | Administrador          |
+|**Fuente**          | SISTEMA          |
 |**Salida**          | queja o inquietud      | 
-|**Destino**         | usuario que ingreso    |
+|**Destino**         | notificacion a administrador    |
 |**Restricciones**   | ninguna                |
-|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion.|
-|**Efecto Colateral**|  Si la respuesta de parte del administrador no llega, volver a hacer la queja e informar de lo anterior| 
+|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
+|**Efecto Colateral**| Ninguno.| 
 
-|**Código**          | RF-004                 | 
+|**Código**          | RF-005                 | 
 |--------------------|------------------------|
 |**Nombre**	         | REPORTES               |
 |**Fecha**	          | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**  	  | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
 |**Entrada**         | Usuario administrador  | 
-|**Fuente**          | Administrador          |
+|**Fuente**          | SISTEMA          |
 |**Salida**          | reporte                | 
 |**Destino**         | usuario administrador  |
 |**Restricciones**   | usuario valido         |
@@ -163,6 +153,21 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Clic sobre el botón “generar” y esperar 
 ●	Visualizar reporte.|
 |**Efecto Colateral**| ninguno                | 
+
+|**Código**          | RF-006          | 
+|--------------------|-------------------|
+|**Nombre**	         | MODULO DE AYUDA |
+|**Fecha**	         | 11/05/23        | 
+|**Grado Necesidad** | MEDIO            |
+|**Entrada**         | correo o telefono, contraseña   |
+|**Fuente**          | boton de ayuda |
+|**Salida**          |  pdf de ayuda|
+|**Destino**         | dispositivo de usuario|
+|**Restricciones**   | Ninguna|
+|**Descripción**   	 | Este modulo les permitira conocer detalles del manejo adecuado del sistema, y responder posibles dudas. |
+|**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
+|**Efecto Colateral**| Ninguno. |
+
 
 ***3.2.Requerimientos No funcionales***
 
