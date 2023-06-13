@@ -97,7 +97,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Código**          | RF-002          | 
 |--------------------|-------------------|
 |**Nombre**	         | GESTION DE USUARIO |
-|**Fecha**	         | 19/05/23        | 
+|**Fecha**	         | 10/05/23        | 
 |**Grado Necesidad** | ALTO            |
 |**Entrada**         | nombre, apellidos, edad, id , ciudad, telefono, direccion, correo.   |
 |**Fuente**          | formulario de registro|
@@ -114,11 +114,11 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necesarios. | 
-|**Entrada**         | Usuario                | 
-|**Fuente**          | Propietario del negocio|
-|**Salida**          | cantidad de productos  | 
-|**Destino**         | usuario que ingreso    |
-|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingrrsar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Entrada**         | coreo o telefono, contraseña                | 
+|**Fuente**          | SISTEMA        |
+|**Salida**          | orden de productos  | 
+|**Destino**         | administrador    |
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
 |**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
@@ -154,15 +154,15 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 ●	Visualizar reporte.|
 |**Efecto Colateral**| ninguno                | 
 
-|**Código**          | RF-002          | 
+|**Código**          | RF-006          | 
 |--------------------|-------------------|
-|**Nombre**	         | GESTION DE USUARIO |
-|**Fecha**	         | 19/05/23        | 
+|**Nombre**	         | MODULO DE AYUDA |
+|**Fecha**	         | 11/05/23        | 
 |**Grado Necesidad** | ALTO            |
-|**Entrada**         | nombre, apellidos, edad, id , ciudad, telefono, direccion, correo.   |
-|**Fuente**          | formulario de registro|
-|**Salida**          | mensaje de "registro exitoso"|
-|**Destino**         | menu principal|
+|**Entrada**         | correo o telefono, contraseña   |
+|**Fuente**          | |
+|**Salida**          | mensaje de "espere un momento"|
+|**Destino**         | pdf de ayuda|
 |**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
 |**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
 |**Proceso**         | digitar datos pedidos para el registro|
