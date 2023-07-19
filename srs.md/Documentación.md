@@ -168,6 +168,48 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
 |**Efecto Colateral**| Ninguno. |
 
+|**Código**          | RF-007         | 
+|--------------------|-----------------|
+|**Nombre**	         | GESTION DE COMPRA |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         |  correo o telefono, contraseña|
+|**Fuente**          | formulario de ingreso de productos|
+|**Salida**          | mensaje de "guardado"|
+|**Destino**         | menu principal|
+|**Restricciones**   |ninguno|
+|**Descripción**   	 |administrar los bienes y servicios que la empresa necesita, garantizando el abastecimiento de las cantidades requeridas en términos de tiempo, calidad y precio |
+|**Proceso**         | Mostrar la disponibilidad de las existencias, el precio de los bienes adquiridos y regula la selección y el trato con los proveedores.|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
+|**Código**          | RF-008         | 
+|--------------------|-----------------|
+|**Nombre**	         | MODULO DE PROVEEDOR |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         |  correo o telefono, contraseña|
+|**Fuente**          |formulario de datos de los productos y mostrar informacion del producto|
+|**Salida**          | mensaje de "guardado"|
+|**Destino**         | menu principal|
+|**Restricciones**   |ninguno|
+|**Descripción**   	 |mostrarle al público qué, cómo, por qué, dónde, cuándo y quién fundó la tienda para generar credibilidad. La otra es exponer adecuadamente cada producto y así lograr más ventas y  vender sus productos a la administradora. |
+|**Proceso**         | Promocionar sus productos y recibir sus productos para venderlos..|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
+|**Código**          | RF-009         | 
+|--------------------|-----------------|
+|**Nombre**	         | MODULO DE PAGO |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         |  correo o telefono, contraseña|
+|**Fuente**          | metodos de pagos|
+|**Salida**          | mensaje de "pago realizado"|
+|**Destino**         | menu principal|
+|**Restricciones**   |ninguno|
+|**Descripción**   	 |Nombrar la factura o el concepto que se haya efectuado el pago. El importe total que el comprador ha pagado y, en el caso que fuese necesario, la cantidad que queda por pagar. El medio de pago utilizado, así como la fecha en la que se recibió. |
+|**Proceso**         | mostrar los detalles del pago administrador y al cliente su forma de pago y se realizo con exito por medio de un mensaje o factura..|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
 
 ***3.2.Requerimientos No funcionales***
 
