@@ -127,14 +127,14 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Nombre**	         | GESTION DE PEDIDOS |
 |**Fecha**	         | 11/05/23        | 
 |**Grado Necesidad** | ALTO          |
-|**Entrada**         | correo o telefono, contraseña   |
+|**Entrada**         | correo o telefono, contraseña y confirmarcion del pedido |
 |**Fuente**          | almacenado en el sistema |
 |**Salida**          | mensaje * exito *|
 |**Destino**         | menu principal|
-|**Restricciones**   | Ninguna|
-|**Descripción**   	 | Este modulo les permitira conocer detalles del manejo adecuado del sistema, y responder posibles dudas. |
+|**Restricciones**   |disponibilidad del producto, cantidad minima 1|
+|**Descripción**   	 |La gestión de pedidos lo que hace es tomar el pedido guardarlo en un carrito y esperar la confirmacion de que si lo compra o no,contribuye significativamente a la satisfacción del cliente y a la reputación general de la empresa.|
 |**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
-|**Efecto Colateral**| Ninguno. |
+|**Efecto Colateral**| ninguno |
 
 
 |**Código**          | RF-005         | 
