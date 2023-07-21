@@ -134,27 +134,52 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Destino**         | notificacion a administrador    |
 |**Restricciones**   | ninguna                |
 |**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
-|**Efecto Colateral**| Ninguno.| 
+|**Efecto Colateral**| Ninguno.|
 
-|**Código**          | RF-005                 | 
-|--------------------|------------------------|
-|**Nombre**	         | REPORTES               |
-|**Fecha**	          | 13/04/23               | 
-|**Grado Necesidad** | ALTO                   |
-|**Descripción**  	  | se le dara a conocer todos los detalles del negocio en un informe general (estadisticas de ventas) a la administradora | 
-|**Entrada**         | Usuario administrador  | 
-|**Fuente**          | SISTEMA          |
-|**Salida**          | reporte                | 
-|**Destino**         | usuario administrador  |
-|**Restricciones**   | usuario valido         |
-|**Proceso**         | Para generar el respectivo reporte debe seleccionar de una lista de chequeo la información que desea que aparezca en el reporte
-●	Seleccionar opciones de lista de chequeo
-●	Adaptar las fechas (Desde-Hasta).
-●	Clic sobre el botón “generar” y esperar 
-●	Visualizar reporte.|
-|**Efecto Colateral**| ninguno                | 
+|**Código**          | RF-005          | 
+|--------------------|-------------------|
+|**Nombre**	         GESTION DE PEDIDOS |
+|**Fecha**	         | 11/05/23        | 
+|**Grado Necesidad** | ALTO          |
+|**Entrada**         | correo o telefono, contraseña   |
+|**Fuente**          | almacenado en el sistema |
+|**Salida**          | mensaje * exito *|
+|**Destino**         | menu principal|
+|**Restricciones**   | Ninguna|
+|**Descripción**   	 | Este modulo les permitira conocer detalles del manejo adecuado del sistema, y responder posibles dudas. |
+|**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
+|**Efecto Colateral**| Ninguno. |
 
-|**Código**          | RF-006          | 
+
+|**Código**          | RF-006         | 
+|--------------------|-----------------|
+|**Nombre**	         | GESTION DE COMPRA |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         |  correo o telefono, contraseña|
+|**Fuente**          | formulario de ingreso de productos|
+|**Salida**          | mensaje de "guardado"|
+|**Destino**         | menu principal|
+|**Restricciones**   |ninguno|
+|**Descripción**   	 |administrar los bienes y servicios que la empresa necesita, garantizando el abastecimiento de las cantidades requeridas en términos de tiempo, calidad y precio del producto |
+|**Proceso**         | Mostrar la disponibilidad de las existencias, el precio de los bienes adquiridos y regula la selección y el trato con los proveedores.|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
+|**Código**          | RF-007         | 
+|--------------------|-----------------|
+|**Nombre**	         | GESTION DE PROVEEDOR |
+|**Fecha**	         | 13/04/23        | 
+|**Grado Necesidad** | ALTO            |
+|**Entrada**         |  correo o telefono, contraseña|
+|**Fuente**          |formulario de datos de los productos y mostrar informacion del producto|
+|**Salida**          | mensaje de "guardado"|
+|**Destino**         | menu principal|
+|**Restricciones**   |ninguno|
+|**Descripción**   	 |mostrarle al público qué, cómo, por qué, dónde, cuándo y quién fundó la tienda para generar credibilidad. La otra es exponer adecuadamente cada producto y así lograr más ventas y  vender sus productos a la administradora. |
+|**Proceso**         | Promocionar sus productos y recibir sus productos para venderlos..|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+
+|**Código**          | RF-008 | 
 |--------------------|-------------------|
 |**Nombre**	         | MODULO DE AYUDA |
 |**Fecha**	         | 11/05/23        | 
@@ -168,47 +193,6 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
 |**Efecto Colateral**| Ninguno. |
 
-|**Código**          | RF-007         | 
-|--------------------|-----------------|
-|**Nombre**	         | GESTION DE COMPRA |
-|**Fecha**	         | 13/04/23        | 
-|**Grado Necesidad** | ALTO            |
-|**Entrada**         |  correo o telefono, contraseña|
-|**Fuente**          | formulario de ingreso de productos|
-|**Salida**          | mensaje de "guardado"|
-|**Destino**         | menu principal|
-|**Restricciones**   |ninguno|
-|**Descripción**   	 |administrar los bienes y servicios que la empresa necesita, garantizando el abastecimiento de las cantidades requeridas en términos de tiempo, calidad y precio |
-|**Proceso**         | Mostrar la disponibilidad de las existencias, el precio de los bienes adquiridos y regula la selección y el trato con los proveedores.|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
-
-|**Código**          | RF-008         | 
-|--------------------|-----------------|
-|**Nombre**	         | MODULO DE PROVEEDOR |
-|**Fecha**	         | 13/04/23        | 
-|**Grado Necesidad** | ALTO            |
-|**Entrada**         |  correo o telefono, contraseña|
-|**Fuente**          |formulario de datos de los productos y mostrar informacion del producto|
-|**Salida**          | mensaje de "guardado"|
-|**Destino**         | menu principal|
-|**Restricciones**   |ninguno|
-|**Descripción**   	 |mostrarle al público qué, cómo, por qué, dónde, cuándo y quién fundó la tienda para generar credibilidad. La otra es exponer adecuadamente cada producto y así lograr más ventas y  vender sus productos a la administradora. |
-|**Proceso**         | Promocionar sus productos y recibir sus productos para venderlos..|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
-
-|**Código**          | RF-009         | 
-|--------------------|-----------------|
-|**Nombre**	         | MODULO DE PAGO |
-|**Fecha**	         | 13/04/23        | 
-|**Grado Necesidad** | ALTO            |
-|**Entrada**         |  correo o telefono, contraseña|
-|**Fuente**          | metodos de pagos|
-|**Salida**          | mensaje de "pago realizado"|
-|**Destino**         | menu principal|
-|**Restricciones**   |ninguno|
-|**Descripción**   	 |Nombrar la factura o el concepto que se haya efectuado el pago. El importe total que el comprador ha pagado y, en el caso que fuese necesario, la cantidad que queda por pagar. El medio de pago utilizado, así como la fecha en la que se recibió. |
-|**Proceso**         | mostrar los detalles del pago administrador y al cliente su forma de pago y se realizo con exito por medio de un mensaje o factura..|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
 
 ***3.2.Requerimientos No funcionales***
