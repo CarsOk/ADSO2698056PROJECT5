@@ -110,7 +110,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 
 |**Código**          | RF-003                 | 
 |--------------------|------------------------|
-|**Nombre**	         | gestion de productos  |
+|**Nombre**	         | GESTION DE EPRODUCTOS  |
 |**Fecha**	         | 13/04/23               | 
 |**Grado Necesidad** | ALTO                   |
 |**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necesarios. | 
@@ -118,7 +118,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fuente**          | SISTEMA        |
 |**Salida**          | orden de productos  | 
 |**Destino**         | administrador    |
-|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador, empleado, cliente)|
+|**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador)|
 |**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
