@@ -116,10 +116,10 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Descripción**   	 | El sistema debe permitir el registro de productos para llevar el orden de estos y saber cuando se agoten para volver a obtener los necesarios. | 
 |**Entrada**         | coreo o telefono, contraseña                | 
 |**Fuente**          | SISTEMA        |
-|**Salida**          | orden de productos  | 
-|**Destino**         | administrador    |
+|**Salida**          | mensaje *datos guardados*  | 
+|**Destino**         | administrador  |
 |**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador)|
-|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( cual es, que cantidad hay, cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
+|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( registrar, que cantidad hay en el inventario,  que productos se agotaron, registro de venta cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
 |**Efecto Colateral**| Error al ingresar      | 
 
 |**Código**          | RF-004          | 
