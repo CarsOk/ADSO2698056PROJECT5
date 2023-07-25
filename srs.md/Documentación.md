@@ -137,21 +137,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Efecto Colateral**| ninguno |
 
 
-|**Código**          | RF-005         | 
-|--------------------|-----------------|
-|**Nombre**	         | GESTION DE COMPRA |
-|**Fecha**	         | 13/04/23        | 
-|**Grado Necesidad** | ALTO            |
-|**Entrada**         |  correo o telefono, contraseña|
-|**Fuente**          | formulario de ingreso de productos|
-|**Salida**          | mensaje de "guardado"|
-|**Destino**         | menu principal|
-|**Restricciones**   |ninguno|
-|**Descripción**   	 |administrar los bienes y servicios que la empresa necesita, garantizando el abastecimiento de las cantidades requeridas en términos de tiempo, calidad y precio del producto |
-|**Proceso**         | Mostrar la disponibilidad de las existencias, el precio de los bienes adquiridos y regula la selección y el trato con los proveedores.|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
-
-|**Código**          | RF-006         | 
+   
+|**Código**          | RF-005        | 
 |--------------------|-----------------|
 |**Nombre**	         | GESTION DE PROVEEDOR |
 |**Fecha**	         | 13/04/23        | 
@@ -165,7 +152,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Proceso**         | recibir sus productos, guadar informacion, para vender los productos.|
 |**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
-|**Código**          | RF-007   | 
+|**Código**          | RF-006   | 
 |--------------------|------------------------|
 |**Nombre**	         | gestion de solicitudes|
 |**Fecha**	          | 13/04/23               | 
@@ -180,7 +167,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Efecto Colateral**| Ninguno.|
 
 
-|**Código**          | RF-008 | 
+|**Código**          | RF-007 | 
 |--------------------|-------------------|
 |**Nombre**	         | MODULO DE AYUDA |
 |**Fecha**	         | 11/05/23        | 
