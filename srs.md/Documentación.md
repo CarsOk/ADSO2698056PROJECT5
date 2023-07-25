@@ -157,12 +157,12 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Fecha**	         | 13/04/23        | 
 |**Grado Necesidad** | ALTO            |
 |**Entrada**         |  correo o telefono, contraseña|
-|**Fuente**          |formulario de datos de los productos y mostrar informacion del producto|
+|**Fuente**          |solicitar productos a los proveedores |
 |**Salida**          | mensaje de "guardado"|
 |**Destino**         | menu principal|
 |**Restricciones**   |ninguno|
-|**Descripción**   	 |mostrarle al público qué, cómo, por qué, dónde, cuándo y quién fundó la tienda para generar credibilidad. La otra es exponer adecuadamente cada producto y así lograr más ventas y  vender sus productos a la administradora. |
-|**Proceso**         | Promocionar sus productos y recibir sus productos para venderlos..|
+|**Descripción**   	 | el administrador pedira una solicitud para comprar productos ya sean nuevo o los mismos de siempre y guardar informacion, aparte debe guardar nombre del proovedor pra saber si seguir comprando a futuro sus productos |
+|**Proceso**         | recibir sus productos, guadar informacion, para vender los productos.|
 |**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
 |**Código**          | RF-007   | 
