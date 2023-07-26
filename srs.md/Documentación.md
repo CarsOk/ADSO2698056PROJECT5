@@ -148,7 +148,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | mensaje de "guardado"|
 |**Destino**         | menu principal|
 |**Restricciones**   |ninguno|
-|**Descripción**   	 | el administrador pedira una solicitud para comprar productos ya sean nuevo o los mismos de siempre y guardar informacion, aparte debe guardar nombre del proovedor pra saber si seguir comprando a futuro sus productos |
+|**Descripción**   	 | el administrador pedira una solicitud para comprar productos ya sean nuevos o los mismos de siempre y guardar informacion, aparte debe guardar el contacto del proovedor por si se quiere seguir comprando al proveedor sus productos |
 |**Proceso**         | recibir sus productos, guadar informacion, para vender los productos.|
 |**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
 
