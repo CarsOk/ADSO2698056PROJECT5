@@ -92,7 +92,9 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Restricciones**   |unicamente pueden ingresar los usuarios registrados|
 |**Descripción**   	 |Al sistema podran ingresar todos los usuarios registrados previamente con su rol(empleado, administrador o cliente.) |
 |**Proceso**         | Digitar los datos correspondientes del formulario de ingreso (correo o telefono y la contraseña) por consiguiente entraran a la pagina principal.|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+|**Efecto Colateral**| 
+Aclaración: ¿Qué sucede si un usuario ingresa una contraseña incorrecta? ¿Deben recibir un mensaje de error?
+Corrección: "Por lo tanto, ingresarán a la página principal."|
 
 |**Código**          | RF-002          | 
 |--------------------|-------------------|
@@ -106,7 +108,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Restricciones**   |unicamente seran registrados mayores de 18 años en adelante.|
 |**Descripción**   	 | Esta gestion les permitira llevar los datos a la base de datos donde quedaran guardados, para ingresar cuando deseen al sistema utilizando solo el correo o telefono y la contraseña. |
 |**Proceso**         | digitar datos pedidos para el registro|
-|**Efecto Colateral**| Ninguno. |
+|**Efecto Colateral**| Aclaración: ¿Qué sucede si alguien menor de 18 años intenta registrarse? ¿Reciben un mensaje de error o alguna indicación?
+Corrección: "Estos datos se almacenarán en la base de datos para su posterior acceso utilizando solo el correo o teléfono y la contraseña." |
 
 |**Código**          | RF-003                 | 
 |--------------------|------------------------|
@@ -119,7 +122,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | mensaje *datos guardados*  | 
 |**Destino**         | administrador  |
 |**Restricciones**   | solo el personal que cuente con un usuario valido puede ingresar y ver la informacion planteada dependiendo su rol (Administrador)|
-|**Proceso**         | RECOLECCION DEDATOS BASICOS DEL PRODUCTO ( registrar, que cantidad hay en el inventario,  que productos se agotaron, registro de venta cuanto se vendio(semanal, mensaul) y de cuanto fue la inversion) y datos basicos del proveedor de dicho producto( nombre, ciudad) | 
+|**Proceso**         | "Registro de productos, seguimiento de inventario, registro de ventas (semanal, mensual), registro de inversiones y datos básicos del proveedor (nombre, ciudad). | 
 |**Efecto Colateral**| Error al ingresar      | 
 
 |**Código**          | RF-004          | 
@@ -132,7 +135,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | mensaje * exito *|
 |**Destino**         | menu principal|
 |**Restricciones**   |disponibilidad del producto, cantidad minima 1|
-|**Descripción**   	 |La gestión de pedidos lo que hace es tomar el pedido guardarlo en un carrito y esperar la confirmacion de que si lo compra o no,contribuye significativamente a la satisfacción del cliente y a la reputación general de la empresa.|
+|**Descripción**   	 | "Los pedidos se guardarán en un carrito y esperarán la confirmación del cliente. Se requiere disponibilidad del producto y una cantidad mínima de 1."|
 |**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
 |**Efecto Colateral**| ninguno |
 
@@ -149,8 +152,8 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Destino**         | menu principal|
 |**Restricciones**   |ninguno|
 |**Descripción**   	 | el administrador pedira una solicitud para comprar productos ya sean nuevos o los mismos de siempre y guardar informacion, aparte debe guardar el contacto del proovedor por si se quiere seguir comprando al proveedor sus productos |
-|**Proceso**         | recibir sus productos, guadar informacion, para vender los productos.|
-|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso. |
+|**Proceso**         | "El administrador solicitará productos a los proveedores, recibirá los productos y guardará información, además de mantener el contacto del proveedor para futuras compras."|
+|**Efecto Colateral**|Error porque digito un correo, telefono o contraseña invalido, lo que les impide el ingreso.|
 
 |**Código**          | RF-006   | 
 |--------------------|------------------------|
@@ -163,7 +166,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Salida**          | queja o inquietud      | 
 |**Destino**         | notificacion a administrador    |
 |**Restricciones**   | ninguna                |
-|**Proceso**         | Se ingresa y se hace la queja o inquietud llega directamente una notificacion a la administradora y el usuario debera esperar entre un lapso de tiempo de 24h para una respuesta de solucion, si la solicitud no es respondida volver a hacer el proceso.|
+|**Proceso**         |"Los clientes podrán dejar quejas o inquietudes relacionadas con los productos. Las notificaciones se enviarán al administrador, y se espera una respuesta en un lapso de 24 horas."|
 |**Efecto Colateral**| Ninguno.|
 
 
@@ -178,7 +181,7 @@ El sistema será un apoyo para los procesos de ingresos y salida de objetos y op
 |**Destino**         | dispositivo de usuario|
 |**Restricciones**   | Ninguna|
 |**Descripción**   	 | Este modulo les permitira conocer detalles del manejo adecuado del sistema, y responder posibles dudas. |
-|**Proceso**         | ingresar al sistema por medio del boton de ayuda y esperar el pdf. |
+|**Proceso**         | "Este módulo permitirá a los usuarios acceder a un PDF de ayuda que proporcionará detalles sobre el manejo adecuado del sistema y respuestas a posibles preguntas." |
 |**Efecto Colateral**| Ninguno. |
 
 
